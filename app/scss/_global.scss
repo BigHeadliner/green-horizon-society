@@ -1,0 +1,39 @@
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-size: 17px;
+    line-height: 27px; 
+    @extend %roboto-400;
+    color: #525560;
+} 
+ 
+.container {
+    max-width: 1310px;
+    margin: 0 auto;
+    padding: 0 15px; 
+    border: 1px solid green; 
+}    
+ 
+.main-btn{ 
+   @extend %roboto-500;  
+   font-size: 17px;  
+   line-height: 19px;
+   background-color: #70c174;
+   color:#FFF;   
+   border-radius: 4px; 
+   border: 1px solid transparent;
+} 
+ 
+.second-btn{  
+  @extend %roboto-500; 
+  font-size: 17px;  
+  line-height: 19px;
+  background-color: #fff;
+  color: #1d2130;
+  font-weight: 700; 
+  border: 1px solid transparent;
+}
