@@ -34,7 +34,7 @@ body {
   font-size: 17px;  
   line-height: 19px;
   background-color: #fff;
-  color: #1d2130;
+  color: #1d2130; 
   border-radius: 4px;   
   cursor: pointer;
   border: 1px solid transparent;
@@ -52,5 +52,12 @@ body {
     border: 1px solid transparent; 
     max-width: 109px; 
     display: block;
-} 
+}  
+ 
+h1{ 
+  @extend %roboto-700; 
+  font-size: 64px; 
+  color: #FFF; 
+  line-height: 75px;   
+}
  
