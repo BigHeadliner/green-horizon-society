@@ -24,7 +24,8 @@ body {
    line-height: 19px;
    background-color: #70c174;
    color:#FFF;   
-   border-radius: 4px; 
+   border-radius: 4px;  
+   cursor: pointer;
    border: 1px solid transparent;
 } 
  
@@ -34,6 +35,22 @@ body {
   line-height: 19px;
   background-color: #fff;
   color: #1d2130;
-  font-weight: 700; 
+  border-radius: 4px;   
+  cursor: pointer;
   border: 1px solid transparent;
-}
+} 
+ 
+.menu__link--navbtn{  
+    @extend %roboto-500;  
+    font-size: 17px;
+    line-height: 19px; 
+    background-color: #1d2130;  
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 12px 26px; 
+    border: 1px solid transparent; 
+    max-width: 109px; 
+    display: block;
+} 
+ 

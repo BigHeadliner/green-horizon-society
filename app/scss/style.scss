@@ -1,28 +1,116 @@
 @import 'vars';
 @import 'fonts';
-@import 'reset';  
-@import 'libs';  
+@import 'reset';
+@import 'libs';
 @import 'global';
 
+// header  
+
+.header__inner {
+    padding: 20px 0;
+    border: 1px solid transparent; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items:center;
+
+    .menu {
+        margin-left: auto;
+
+        .menu__btn {
+            position: relative;
+            width: 50px;
+            height: 40px;
+            border: none;
+            padding: 0;
+            background-color: transparent;
+            transition: all 0.25s;
+            display: none;
+
+            .row-top,
+            .row-middle,
+            .row-bottom {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 45px;
+                height: 3px;
+                background: #80b918;
+                transform: rotate(0);
+                transition: all 0.5s;
+            }
+
+            .row-middle {
+                transform: translateY(16px);
+            }
+
+            .row-bottom {
+                transform: translateY(33px);
+            }
+
+        }
+
+        .menu__btn--open {
+            .row-top {
+                transform: rotate(45deg) translateY(10px) translateX(10px);
+            }
+
+            .row-middle {
+                display: none;
+            }
+
+            .row-bottom {
+                transform: rotate(-45deg) translateY(10px) translateX(-10px);
+            }
+        }
+
+        .menu__list {
+            display: flex;
+            align-items: center;
+
+            .menu__item+.menu__item {
+                margin-left: 40px;
+
+            }
+
+            .menu__link {
+                transition: all .3s;
+                font-size: 17px;
+                color:#0b0106;
+                @extend %roboto-700;
+            }
+
+            .menu__link--navbtn {
+                color: #FFF; 
+            }  
+             
+            .menu__link:hover {
+                color: #80b918;
+            } 
+             
+            .menu__link--navbtn:hover{ 
+                color: #FFF;    
+            }
+        }
+    }
+}
 
 
 
 
- 
 
 
-   
-   
 
- 
-  
- 
-   
 
- 
-  
- 
 
-@import 'media'; 
- 
- 
+
+
+
+
+
+
+
+
+
+
+
+@import 'media';
