@@ -9,12 +9,12 @@ body {
   font-weight: 500;
 }
 
-.help-nature__supporters-title, .header__inner .menu .menu__list .menu__link, h3, h1, .majority-suptitle {
+.wecare__point-title, .help-nature__supporters-title, .header__inner .menu .menu__list .menu__link, h3, h1, .majority-suptitle {
   font-family: "Roboto-Bold", sans-serif;
   font-weight: 700;
 }
 
-.help-nature__supporters-title, .header__inner .menu .menu__list .menu__link, h3, h1, .majority-suptitle {
+.wecare__point-title, .help-nature__supporters-title, .header__inner .menu .menu__list .menu__link, h3, h1, .majority-suptitle {
   font-family: "Poppins-Bold", sans-serif;
   font-weight: 700;
 }
@@ -2479,6 +2479,84 @@ h3 {
   position: absolute;
   top: -14px;
   left: -1px;
+}
+
+.wecare {
+  background-color: #EFF7F2;
+}
+.wecare__main {
+  padding-left: 97px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.wecare__content {
+  border: 1px solid transparent;
+  max-width: 609px;
+  padding: 95px 0 72px 0;
+}
+.wecare__suptitle {
+  margin-bottom: 32px;
+}
+.wecare__title {
+  margin-bottom: 17px;
+  position: relative;
+}
+.wecare__subtitle {
+  margin-bottom: 32px;
+}
+.wecare__points {
+  border-left: 1px solid #E5E5E5;
+}
+.wecare__point {
+  border: 1px solid transparent;
+  max-width: 420px;
+  padding-left: 75px;
+  height: 80px;
+  margin-bottom: 25px;
+}
+.wecare__point--nomargin {
+  margin-bottom: 0;
+}
+.wecare__point-title {
+  font-size: 25px;
+  color: #1D2130;
+  margin-bottom: 8px;
+  position: relative;
+}
+.wecare__point-title::before {
+  content: "";
+  width: 28px;
+  height: 28px;
+  border: 1px solid transparent;
+  background-image: url("../images/wecare/cities.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  left: -50px;
+}
+.wecare__point-title--plantation::before {
+  background-image: url("../images/wecare/tree-plantation.svg");
+}
+.wecare__point-title--water::before {
+  background-image: url("../images/wecare/water.svg");
+}
+.wecare__point-title--animal::before {
+  background-image: url("../images/wecare/animal.svg");
+}
+.wecare__text {
+  line-height: 25px;
+  color: #525560;
+}
+.wecare__img {
+  max-width: 480px;
+  height: 658px;
+  margin: 146px 0 97px 0;
 }
 
 @media (max-width: 525px) {

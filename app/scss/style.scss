@@ -192,7 +192,7 @@
     &__content{  
         border: 1px solid transparent;
         padding-top: 62px; 
-        max-width: 607px;   
+        max-width: 607px;    
     } 
      
     &__suptitle{ 
@@ -266,6 +266,97 @@
         position: absolute; 
         top: -14px; 
         left: -1px;
+    }
+} 
+ 
+.wecare{   
+    background-color: #EFF7F2;  
+     
+    &__main{ 
+      padding-left: 97px; 
+      display: flex; 
+      justify-content: space-between;
+    }
+     
+    &__content{ 
+        border: 1px solid transparent; 
+        max-width: 609px; 
+        padding: 95px 0 72px 0;
+    }  
+     
+    &__suptitle{ 
+        margin-bottom: 32px;
+    }
+
+    &__title{ 
+        margin-bottom: 17px; 
+        position: relative;
+    }
+     
+    &__subtitle{ 
+        margin-bottom: 32px;
+    } 
+      
+    &__points{ 
+        border-left: 1px solid #E5E5E5;
+    } 
+
+    &__point{ 
+        border: 1px solid transparent; 
+        max-width: 420px; 
+        padding-left: 75px; 
+        height: 80px; 
+        margin-bottom: 25px;
+    }  
+     
+    &__point--nomargin{ 
+        margin-bottom: 0;
+    }
+     
+    &__point-title{ 
+       @extend %roboto-700;   
+       font-size: 25px; 
+       color:#1D2130; 
+       margin-bottom: 8px; 
+       position: relative;
+    }   
+     
+    &__point-title::before{ 
+        content: ''; 
+        width: 28px; 
+        height: 28px;  
+        border: 1px solid transparent;  
+        background-image:url('../images/wecare/cities.svg'); 
+        background-repeat: no-repeat; 
+        background-position: center;    
+        background-size: cover; 
+        position: absolute; 
+        top: 0px;  
+        left: -50px;
+    } 
+
+    &__point-title--plantation::before{ 
+        background-image:url('../images/wecare/tree-plantation.svg');    
+    } 
+     
+    &__point-title--water::before{ 
+        background-image:url('../images/wecare/water.svg');     
+    } 
+     
+    &__point-title--animal::before{ 
+        background-image:url('../images/wecare/animal.svg');    
+    }
+      
+    &__text{ 
+        line-height: 25px; 
+        color: #525560;
+    } 
+     
+    &__img{ 
+        max-width: 480px;  
+        height: 658px; 
+        margin: 146px 0 97px 0;
+
     }
 }
 
