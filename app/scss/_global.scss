@@ -26,7 +26,8 @@ body {
    color:#FFF;   
    border-radius: 4px;  
    cursor: pointer;
-   border: 1px solid transparent;
+   border: 1px solid transparent; 
+   display: block;
 } 
  
 .second-btn{  
@@ -37,7 +38,8 @@ body {
   color: #1d2130; 
   border-radius: 4px;   
   cursor: pointer;
-  border: 1px solid transparent;
+  border: 1px solid transparent; 
+  display: block;
 } 
  
 .menu__link--navbtn{  
@@ -52,12 +54,37 @@ body {
     border: 1px solid transparent; 
     max-width: 109px; 
     display: block;
-}  
+}   
+ 
+.majority-suptitle{  
+    @extend %roboto-700; 
+    font-size: 17px; 
+    position: relative;  
+    border: 1px solid transparent; 
+    text-transform: uppercase; 
+    color:#1D2130; 
+    &::before{ 
+        content:""; 
+        width: 73px; 
+        height: 3px; 
+        background-color:#1D2130; 
+        position:absolute; 
+        top: 10px;
+        left: -98px;
+       }  
+   }
  
 h1{ 
   @extend %roboto-700; 
   font-size: 64px; 
   color: #FFF; 
   line-height: 75px;   
+} 
+  
+h3{ 
+    @extend %roboto-700; 
+    font-size: 48px; 
+    line-height: 58px;   
+    color:#1D2130;
 }
  
