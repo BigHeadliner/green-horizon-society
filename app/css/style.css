@@ -9,12 +9,12 @@ body {
   font-weight: 500;
 }
 
-.wecare__point-title, .help-nature__supporters-title, .header__inner .menu .menu__list .menu__link, h3, h1, .majority-suptitle {
+.wecare__point-title, .help-nature__supporters-title, .header__inner .menu .menu__list .menu__link, h4, h3, h1, .majority-suptitle {
   font-family: "Roboto-Bold", sans-serif;
   font-weight: 700;
 }
 
-.wecare__point-title, .help-nature__supporters-title, .header__inner .menu .menu__list .menu__link, h3, h1, .majority-suptitle {
+.wecare__point-title, .help-nature__supporters-title, .header__inner .menu .menu__list .menu__link, h4, h3, h1, .majority-suptitle {
   font-family: "Poppins-Bold", sans-serif;
   font-weight: 700;
 }
@@ -2200,6 +2200,12 @@ h3 {
   color: #1D2130;
 }
 
+h4 {
+  font-size: 28px;
+  line-height: 37px;
+  color: #1D2130;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -2557,6 +2563,100 @@ h3 {
   max-width: 480px;
   height: 658px;
   margin: 146px 0 97px 0;
+}
+
+.society__inner {
+  padding: 95px 0;
+}
+.society__content {
+  padding: 95px 0 0 97px;
+}
+.society__suptitle {
+  margin-bottom: 32px;
+}
+.society__title {
+  max-width: 645px;
+}
+.society__title {
+  margin-bottom: 65px;
+}
+.society__items {
+  border: 1px solid transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 97px;
+}
+.society__item {
+  max-width: 410px;
+  padding: 80px 48px 48px 48px;
+  border: 1px solid transparent;
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+  border-radius: 14px;
+}
+.society__item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Затемнений фон (чорний з прозорістю 0.5) */
+  opacity: 1; /* Початкова прозорість 0, ефект появи */
+  -webkit-transition: opacity 0.3s ease;
+  -o-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease; /* Анімація зміни прозорості з тривалістю 0.3 секунди */
+}
+.society__item:hover::before {
+  opacity: 0; /* Затемнений фон стає повністю видимим при наведенні */
+}
+.society__item-btn {
+  padding: 15px 27px;
+  max-width: 132px;
+  cursor: pointer;
+  z-index: 15;
+  position: relative;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-transition: opacity 0.3s ease;
+  -o-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+.society__item:hover .society__item-btn {
+  background-color: #fff;
+}
+.society__item--plantation {
+  background-image: url("../images/society/plantation.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.society__item--cleanliness {
+  background-image: url("../images/society/cleanliness.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.society__item--wildlife {
+  background-image: url("../images/society/wildlife.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.society__item-title {
+  color: #FFF;
+  margin-bottom: 17px;
+}
+.society__item-text {
+  color: #FFF;
+  margin-bottom: 65px;
 }
 
 @media (max-width: 525px) {

@@ -358,6 +358,113 @@
         margin: 146px 0 97px 0;
 
     }
+} 
+ 
+.society{ 
+     
+    &__inner{ 
+        padding: 95px 0;
+    } 
+     
+    &__content{ 
+       padding: 95px 0 0 97px;
+    } 
+     
+    &__suptitle{ 
+        margin-bottom: 32px;
+    } 
+     
+    &__title{ 
+        max-width: 645px;
+    } 
+     
+    &__title{ 
+        margin-bottom: 65px;
+    } 
+
+    &__items{ 
+        border: 1px solid transparent; 
+        display: flex; 
+        justify-content: space-between; 
+        align-items:center; 
+        margin-bottom: 97px;
+    } 
+     
+    &__item{ 
+       max-width: 410px; 
+       padding: 80px 48px 48px 48px;  
+       border:1px solid transparent;  
+       position: relative; 
+       overflow: hidden;  
+       border-radius: 4px; 
+       border-radius: 14px;
+    }   
+     
+    &__item::before {
+        content: ""; 
+        position: absolute; 
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5); /* Затемнений фон (чорний з прозорістю 0.5) */
+        opacity: 1; /* Початкова прозорість 0, ефект появи */
+        transition: opacity 0.3s ease; /* Анімація зміни прозорості з тривалістю 0.3 секунди */
+      }
+        
+      &__item:hover::before {
+        opacity: 0; /* Затемнений фон стає повністю видимим при наведенні */  
+      }  
+       
+      &__item-btn{ 
+        padding: 15px 27px;
+        max-width: 132px;  
+        cursor: pointer;  
+        z-index:15; 
+        position: relative; 
+        background: rgba(0, 0, 0, 0.5); 
+        transition: opacity 0.3s ease;
+    }
+       
+      &__item:hover{  
+        .society__item-btn{  
+            background-color: #fff;
+         }
+      }
+     
+    &__item--plantation{ 
+        background-image: url('../images/society/plantation.jpg'); 
+        background-repeat: no-repeat; 
+        background-size: cover; 
+        background-position: center;
+    }
+      
+     
+    &__item--cleanliness{ 
+        background-image: url('../images/society/cleanliness.jpg'); 
+        background-repeat: no-repeat; 
+        background-size: cover; 
+        background-position: center;
+    }  
+     
+    &__item--wildlife{ 
+        background-image: url('../images/society/wildlife.jpg'); 
+        background-repeat: no-repeat; 
+        background-size: cover; 
+        background-position: center;  
+    }
+
+    &__item-title{ 
+        color: #FFF;  
+        margin-bottom: 17px;
+    } 
+     
+    &__item-text{ 
+        color:#FFF; 
+        margin-bottom: 65px;
+    } 
+      
+    
 }
 
 

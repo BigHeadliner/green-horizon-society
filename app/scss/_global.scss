@@ -35,7 +35,7 @@ body {
   font-size: 17px;  
   line-height: 19px;
   background-color: #fff;
-  color: #1d2130; 
+  color: #1d2130;
   border-radius: 4px;   
   cursor: pointer;
   border: 1px solid transparent; 
@@ -86,5 +86,13 @@ h3{
     font-size: 48px; 
     line-height: 58px;   
     color:#1D2130;
+} 
+ 
+h4{ 
+    @extend %roboto-700; 
+    font-size: 28px; 
+    line-height: 37px;   
+    color:#1D2130;
 }
+ 
  
