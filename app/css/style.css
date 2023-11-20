@@ -2729,6 +2729,47 @@ h4 {
   background-color: #F38FBF;
 }
 
+.contribute {
+  padding: 110px 0 97px;
+}
+.contribute__inner {
+  background-image: url("../images/contribute/contribute-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding-top: 93px;
+  text-align: center;
+}
+.contribute__title {
+  color: #FFF;
+  max-width: 630px;
+  margin: 0 auto 36px;
+}
+.contribute__buttons {
+  border: 1px solid transparent;
+  max-width: 347px;
+  margin: 0 auto 93px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contribute__btn-green {
+  max-width: 200px;
+  padding: 17px 27px;
+}
+.contribute__btn-grey {
+  max-width: 115px;
+  padding: 17px 27px;
+}
+
 @media (max-width: 525px) {
   .fancybox-slide {
     padding: 10px;

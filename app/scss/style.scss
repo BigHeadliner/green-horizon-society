@@ -536,7 +536,47 @@
         background-color:#F38FBF;
     } 
      
-} 
+}  
+ 
+.contribute{ 
+    padding: 110px 0 97px; 
+     
+    &__inner{ 
+      background-image:url('../images/contribute/contribute-bg.jpg'); 
+      background-repeat: no-repeat; 
+      background-size: cover; 
+      background-position: center; 
+      border: 1px solid transparent;   
+      border-radius: 10px; 
+      padding-top: 93px; 
+      text-align: center;
+    } 
+     
+    &__title{ 
+        color:#FFF; 
+        max-width: 630px; 
+        margin: 0 auto 36px;
+    }  
+     
+    &__buttons{ 
+        border: 1px solid transparent; 
+        max-width: 347px; 
+        margin: 0 auto 93px; 
+        display: flex; 
+        justify-content: space-between;  
+        align-items: center;
+    }
+     
+    &__btn-green{ 
+        max-width: 200px; 
+        padding: 17px 27px;
+    } 
+     
+    &__btn-grey{ 
+        max-width: 115px; 
+        padding: 17px 27px;
+    }
+}
  
 
   
