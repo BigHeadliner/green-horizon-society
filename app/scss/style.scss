@@ -463,10 +463,83 @@
         color:#FFF; 
         margin-bottom: 65px;
     } 
-      
-    
+        
 }
+ 
+.donations{ 
+    background-color:#0B0706;    
+    padding: 97px 0;
+     
+    &__inner{ 
+        display: flex; 
+        align-items:center; 
+        justify-content: space-between;
+    }
+     
+    &__content{ 
+        max-width: 650px; 
+        border: 1px solid transparent;
+    } 
+     
+    &__title{  
+        color:#FFF; 
+        margin-bottom: 17px;
+    } 
+     
+    &__subtitle{ 
+        color:#FFF;  
+        margin-bottom: 32px;   
+    } 
+     
+    &__jobdone{ 
+        border: 1px solid transparent;  
+        display: grid; 
+        grid-template-columns: repeat(3, 1fr); 
+        grid-template-rows: repeat(2, 1fr); 
+        row-gap: 15px; 
+        column-gap: 25px;  
+        // height: 58px;
+    } 
+     
+    &__jobdone-item{ 
+        padding-left: 25px;  
+        color: #FFF; 
+        border:1px solid transparent; 
+        position: relative; 
+        font-size: 15px;
+    } 
+      
+    &__jobdone-item::before{ 
+        content: ""; 
+        width: 17px; 
+        height: 17px; 
+        border-radius: 4px; 
+        background-color:#BEF3C0; 
+        position: absolute;
+        top: 3px; 
+        left: 1px;
+    } 
+     
+    &__jobdone-item--cleanliness::before{
+        background-color: #AC94F1;
+    } 
+     
+    &__jobdone-item--helping::before{ 
+        background-color: #FFF0CA;   
+    } 
+     
+    &__jobdone-item--safety::before{ 
+        background-color:#F9CF64;
+    } 
+     
+    &__jobdone-item--feeding::before{ 
+        background-color:#F38FBF;
+    } 
+     
+} 
+ 
 
+  
 
 
 
