@@ -752,6 +752,109 @@
     &__item-title{ 
         max-width: 345px;
     }
+} 
+ 
+.about-us{    
+    background: rgb(239,247,242);
+    background: linear-gradient(0deg, rgba(239,247,242,1) 59%, rgba(255,255,255,1) 60%);
+
+    &__inner{ 
+        border: 1px solid transparent; 
+        padding-top: 97px; 
+        padding: 97px 0 0 0;
+    }   
+     
+    &__title-wrapper{ 
+        padding-left: 97px;
+    }
+     
+    &__suptitle{ 
+        margin-bottom: 32px; 
+    }  
+     
+     
+    &__title{ 
+      color:#1D2130; 
+      max-width: 650px;  
+      margin-bottom: 97px;
+    } 
+     
+    &__img-wrapper{ 
+        display:flex; 
+        justify-content: center; 
+        align-items: center; 
+        margin: 0 auto; 
+        border: 1px solid transparent;
+    } 
+     
+    &__link{ 
+        width: 70px; 
+        height: 70px; 
+        border-radius:50%; 
+        background-color:#FFF;  
+        z-index: 15; 
+        position:absolute; 
+        display: flex; 
+        justify-content: center; 
+        align-items:center;
+    } 
+     
+    &__link-img{ 
+        width: 30px; 
+        height: 30px;
+    } 
+     
+    &__img-wrapper{
+        margin-bottom: 97px;
+    } 
+     
+    &__content{  
+        width: 100%;
+        max-width: 1089px; 
+        border: 1px solid transparent; 
+        margin: 0 auto 99px;  
+        display: flex; 
+        justify-content: space-between;
+    }  
+     
+    &__item{ 
+        max-width: 497px; 
+        border: 1px solid transparent;
+    }
+     
+    &__item-suptitle{ 
+        font-size: 17px; 
+        @extend %roboto-700; 
+        text-transform: uppercase; 
+        margin-bottom: 17px; 
+        color:#1D2130;
+    } 
+     
+    &__item-title{ 
+        max-width: 497px;  
+        width: 100%;
+        margin-bottom: 10px;
+    } 
+     
+    &__supporters{ 
+        border: 1px solid transparent; 
+        position: relative; 
+        padding-top: 48px; 
+        display: flex; 
+        justify-content: space-between; 
+        margin-bottom: 97px;
+    } 
+     
+    &__supporters-title{ 
+        font-size: 17px; 
+        @extend %roboto-700; 
+        text-transform: uppercase; 
+        color:#1D2130;    
+        position: absolute; 
+        top: 0; 
+        left: 0;
+    }
+     
 }
  
 

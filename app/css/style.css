@@ -9,12 +9,12 @@
   font-weight: 500;
 }
 
-.events__item-suptitle, .events__item-month, .events__item-number, .events__title, .news__title, .wecare__point-title, .help-nature__supporters-title, .header__inner .menu .menu__list .menu__link, h5, h4, h3, h1, .majority-suptitle {
+.about-us__supporters-title, .about-us__item-suptitle, .events__item-suptitle, .events__item-month, .events__item-number, .events__title, .news__title, .wecare__point-title, .help-nature__supporters-title, .header__inner .menu .menu__list .menu__link, h5, h4, h3, h2, h1, .majority-suptitle {
   font-family: "Roboto-Bold", sans-serif;
   font-weight: 700;
 }
 
-.events__item-suptitle, .events__item-month, .events__item-number, .events__title, .news__title, .wecare__point-title, .help-nature__supporters-title, .header__inner .menu .menu__list .menu__link, h5, h4, h3, h1, .majority-suptitle {
+.about-us__supporters-title, .about-us__item-suptitle, .events__item-suptitle, .events__item-month, .events__item-number, .events__title, .news__title, .wecare__point-title, .help-nature__supporters-title, .header__inner .menu .menu__list .menu__link, h5, h4, h3, h2, h1, .majority-suptitle {
   font-family: "Poppins-Bold", sans-serif;
   font-weight: 700;
 }
@@ -2134,7 +2134,6 @@ body {
   margin: 0 auto;
   padding: 0 15px;
   border: 1px solid green;
-  border: 1px solid transparent;
 }
 
 .main-btn {
@@ -2191,6 +2190,12 @@ body {
 
 h1 {
   font-size: 64px;
+  color: #FFF;
+  line-height: 75px;
+}
+
+h2 {
+  font-size: 56px;
   color: #FFF;
   line-height: 75px;
 }
@@ -2958,6 +2963,113 @@ h5 {
 }
 .events__item-title {
   max-width: 345px;
+}
+
+.about-us {
+  background: rgb(239, 247, 242);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(59%, rgb(239, 247, 242)), color-stop(60%, rgb(255, 255, 255)));
+  background: -o-linear-gradient(bottom, rgb(239, 247, 242) 59%, rgb(255, 255, 255) 60%);
+  background: linear-gradient(0deg, rgb(239, 247, 242) 59%, rgb(255, 255, 255) 60%);
+}
+.about-us__inner {
+  border: 1px solid transparent;
+  padding-top: 97px;
+  padding: 97px 0 0 0;
+}
+.about-us__title-wrapper {
+  padding-left: 97px;
+}
+.about-us__suptitle {
+  margin-bottom: 32px;
+}
+.about-us__title {
+  color: #1D2130;
+  max-width: 650px;
+  margin-bottom: 97px;
+}
+.about-us__img-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  border: 1px solid transparent;
+}
+.about-us__link {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #FFF;
+  z-index: 15;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.about-us__link-img {
+  width: 30px;
+  height: 30px;
+}
+.about-us__img-wrapper {
+  margin-bottom: 97px;
+}
+.about-us__content {
+  width: 100%;
+  max-width: 1089px;
+  border: 1px solid transparent;
+  margin: 0 auto 99px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.about-us__item {
+  max-width: 497px;
+  border: 1px solid transparent;
+}
+.about-us__item-suptitle {
+  font-size: 17px;
+  text-transform: uppercase;
+  margin-bottom: 17px;
+  color: #1D2130;
+}
+.about-us__item-title {
+  max-width: 497px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.about-us__supporters {
+  border: 1px solid transparent;
+  position: relative;
+  padding-top: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 97px;
+}
+.about-us__supporters-title {
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #1D2130;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 @media (max-width: 525px) {
