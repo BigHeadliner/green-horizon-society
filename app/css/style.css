@@ -4,17 +4,17 @@
   font-weight: 400;
 }
 
-.main__bottom-text, .main__video, .menu__link--navbtn, .second-btn, .main-btn {
+.awards__item-location, .main__bottom-text, .main__video, .menu__link--navbtn, .second-btn, .main-btn {
   font-family: "Roboto-Medium", sans-serif;
   font-weight: 500;
 }
 
-.about-us__supporters-title, .about-us__item-suptitle, .events__item-suptitle, .events__item-month, .events__item-number, .events__title, .news__title, .wecare__point-title, .help-nature__supporters-title, .header__inner .menu .menu__list .menu__link, h5, h4, h3, h2, h1, .majority-suptitle {
+.awards__item-title, .awards__item-date, .about-us__supporters-title, .about-us__item-suptitle, .events__item-suptitle, .events__item-month, .events__item-number, .events__title, .news__title, .wecare__point-title, .help-nature__supporters-title, .header__inner .menu .menu__list .menu__link, h5, h4, h3, h2, h1, .majority-suptitle {
   font-family: "Roboto-Bold", sans-serif;
   font-weight: 700;
 }
 
-.about-us__supporters-title, .about-us__item-suptitle, .events__item-suptitle, .events__item-month, .events__item-number, .events__title, .news__title, .wecare__point-title, .help-nature__supporters-title, .header__inner .menu .menu__list .menu__link, h5, h4, h3, h2, h1, .majority-suptitle {
+.awards__item-title, .awards__item-date, .about-us__supporters-title, .about-us__item-suptitle, .events__item-suptitle, .events__item-month, .events__item-number, .events__title, .news__title, .wecare__point-title, .help-nature__supporters-title, .header__inner .menu .menu__list .menu__link, h5, h4, h3, h2, h1, .majority-suptitle {
   font-family: "Poppins-Bold", sans-serif;
   font-weight: 700;
 }
@@ -3070,6 +3070,49 @@ h5 {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.awards__inner {
+  border: 1px solid transparent;
+  text-align: center;
+  padding-top: 97px;
+}
+.awards__title {
+  margin-bottom: 70px;
+}
+.awards__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1099px;
+  margin: 0 auto 97px;
+}
+.awards__item {
+  border: 1px solid transparent;
+  width: 170px;
+  text-align: center;
+}
+.awards__item-img {
+  margin: 0 auto 17px;
+}
+.awards__item-date {
+  font-size: 24px;
+  color: #1D2130;
+  margin-bottom: 5px;
+}
+.awards__item-title {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #1D2130;
+}
+.awards__item-location {
+  font-size: 17px;
 }
 
 @media (max-width: 525px) {
