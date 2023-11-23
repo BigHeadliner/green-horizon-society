@@ -663,12 +663,12 @@
         @extend %roboto-700; 
         color:#1D2130;  
         border: 1px solid transparent;  
-        padding-right: 25px; 
+        padding: 0 25px; 
         background-color:#FFF; 
         max-width: 325px; 
         position: absolute;  
         top: -15px; 
-        left: 0;    
+        left: -15px;    
     }  
      
     &__items{ 
@@ -911,6 +911,9 @@
 
 }
  
+
+
+
 
   
 

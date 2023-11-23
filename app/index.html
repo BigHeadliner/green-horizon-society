@@ -261,9 +261,48 @@
          <h3 class="contribute__title">You can contribute to make the environment greener!</h3>  
 
           <div class="contribute__buttons"> 
-            <a class="contribute__btn-green main-btn" href="#">Join as a volunteer</a> 
+            <a class="contribute__btn-green main-btn" id="openPopupBtn" href="#">Join as a volunteer</a> 
             <a class="contribute__btn-grey second-btn" href="#">Donate</a>
-          </div>      
+          </div>     
+           
+           <div id="myModal" class="mfp-hide">   
+        
+            <div class="mp-form-wrapper">      
+               
+              <p class="mp-title">Join as a volunteer</p>
+
+              <button class="close-popup-btn">✖</button> 
+          
+              <form class="mp-form" id="myForm" action="#">
+               
+                <div class="input-wrapper"> 
+                  <label for="name">First Name</label>
+                  <input class="mp-name" type="text" id="name" name="name" required> 
+                </div> 
+                 
+                <div class="input-wrapper">
+                  <label for="surname">Last Name</label>
+                  <input class="mp-surname" type="text" id="surname" name="surname" required> 
+                </div>
+                 
+                <div class="input-wrapper">
+                  <label for="email">Email</label>
+                  <input class="mp-email" type="email" id="email" name="email" required>
+                </div>  
+                  
+                <div class="input-wrapper">
+                  <label for="textarea" class="textarea-label">Message</label>
+                  <textarea class="mp-textarea" type="textarea" name="textarea" id="textarea" placeholder="Type your Messege"></textarea>
+                </div>  
+             
+               
+
+                <input class="mp-form-btn main-btn" type="submit" value="Відправити">
+            </form>  
+          </div> 
+        </div>
+        
+        
 
         </div>
       </div>
