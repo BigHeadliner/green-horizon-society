@@ -4,17 +4,17 @@
   font-weight: 400;
 }
 
-.awards__item-location, .main__bottom-text, .main__video, .menu__link--navbtn, .second-btn, .main-btn {
+.journey__subtitle, .awards__item-location, .main__bottom-text, .main__video, .menu__link--navbtn, .second-btn, .main-btn {
   font-family: "Roboto-Medium", sans-serif;
   font-weight: 500;
 }
 
-.awards__item-title, .awards__item-date, .about-us__supporters-title, .about-us__item-suptitle, .events__item-suptitle, .events__item-month, .events__item-number, .events__title, .news__title, .wecare__point-title, .help-nature__supporters-title, .header__inner .menu .menu__list .menu__link, h5, h4, h3, h2, h1, .mp-title, .majority-suptitle {
+.journey__number-title3::after, .journey__number-title2::after, .journey__number-title1::after, .journey__number-title1, .journey__number-title2, .journey__number-title3, .journey__suptitle, .awards__item-title, .awards__item-date, .about-us__supporters-title, .about-us__item-suptitle, .events__item-suptitle, .events__item-month, .events__item-number, .events__title, .news__title, .wecare__point-title, .help-nature__supporters-title, .header__inner .menu .menu__list .menu__link, h5, h4, h3, h2, h1, .mp-title, .majority-suptitle {
   font-family: "Roboto-Bold", sans-serif;
   font-weight: 700;
 }
 
-.awards__item-title, .awards__item-date, .about-us__supporters-title, .about-us__item-suptitle, .events__item-suptitle, .events__item-month, .events__item-number, .events__title, .news__title, .wecare__point-title, .help-nature__supporters-title, .header__inner .menu .menu__list .menu__link, h5, h4, h3, h2, h1, .mp-title, .majority-suptitle {
+.journey__number-title3::after, .journey__number-title2::after, .journey__number-title1::after, .journey__number-title1, .journey__number-title2, .journey__number-title3, .journey__suptitle, .awards__item-title, .awards__item-date, .about-us__supporters-title, .about-us__item-suptitle, .events__item-suptitle, .events__item-month, .events__item-number, .events__title, .news__title, .wecare__point-title, .help-nature__supporters-title, .header__inner .menu .menu__list .menu__link, h5, h4, h3, h2, h1, .mp-title, .majority-suptitle {
   font-family: "Poppins-Bold", sans-serif;
   font-weight: 700;
 }
@@ -3652,6 +3652,93 @@ h5 {
 }
 .awards__item-location {
   font-size: 17px;
+}
+
+.journey__inner {
+  max-width: 1280px;
+  width: 100%;
+  background-color: #0B0706;
+  border-radius: 10px;
+  padding: 64px 0 64px 97px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.journey__content {
+  max-width: 500px;
+  border: 1px solid transparent;
+}
+.journey__suptitle {
+  font-size: 17px;
+  color: #fff;
+  margin-bottom: 17px;
+}
+.journey__title {
+  color: #fff;
+  margin-bottom: 17px;
+}
+.journey__text {
+  max-width: 500px;
+  color: #fff;
+  margin-bottom: 32px;
+}
+.journey__numbers {
+  max-width: 500px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.journey__number-title1, .journey__number-title2, .journey__number-title3 {
+  font-size: 35px;
+  color: #FFF;
+  margin-bottom: 19px;
+  position: relative;
+  width: 100px;
+  border: 1px solid transparent;
+}
+.journey__number-title1::after {
+  content: "M+";
+  font-size: 35px;
+  color: #FFF;
+  position: absolute;
+  top: 0;
+  right: 1px;
+}
+.journey__number-title2::after {
+  content: "+";
+  font-size: 35px;
+  color: #FFF;
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+.journey__number-title3::after {
+  content: "K+";
+  font-size: 35px;
+  color: #FFF;
+  position: absolute;
+  top: 0;
+  right: 5px;
+}
+.journey__subtitle {
+  font-size: 17px;
+  color: #FFF;
+}
+.journey__img {
+  border-radius: 10px 0 0 10px;
 }
 
 @media (max-width: 525px) {
