@@ -3741,6 +3741,53 @@ h5 {
   border-radius: 10px 0 0 10px;
 }
 
+.team {
+  padding-top: 97px;
+  text-align: center;
+}
+.team__title {
+  margin-bottom: 17px;
+}
+.team__subtitle {
+  margin-bottom: 48px;
+}
+.team__members {
+  border: 1px solid transparent;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+  grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: (1fr)[2];
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 32px;
+  grid-row-gap: 48px;
+  margin-bottom: 97px;
+}
+.team__member {
+  border: 1px solid transparent;
+  width: 100%;
+  max-width: 296px;
+}
+.team__member-img {
+  margin-bottom: 17px;
+}
+.team__member-title {
+  margin-bottom: 10px;
+}
+.team__member-suptitle {
+  margin-bottom: 17px;
+}
+.team__member-social {
+  width: 100px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 @media (max-width: 525px) {
   .fancybox-slide {
     padding: 10px;

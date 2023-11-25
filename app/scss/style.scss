@@ -1007,8 +1007,55 @@
         border-radius: 10px 0 0 10px;
     }
     
+} 
+ 
+.team{ 
+    padding-top: 97px; 
+    text-align: center; 
      
-
+    &__title{ 
+        margin-bottom: 17px;
+    } 
+     
+    &__subtitle{ 
+        margin-bottom: 48px;
+    } 
+     
+    &__members{ 
+        border: 1px solid transparent; 
+        display: grid; 
+        grid-template-columns: repeat(4, 1fr); 
+        grid-template-rows: repeat(2, 1fr); 
+        grid-column-gap: 32px; 
+        grid-row-gap: 48px; 
+        margin-bottom: 97px;
+    } 
+     
+    &__member{  
+        border: 1px solid transparent;    
+        width: 100%; 
+        max-width: 296px;
+    } 
+     
+    &__member-img{ 
+        margin-bottom: 17px; 
+       
+    }  
+     
+    &__member-title{ 
+        margin-bottom: 10px;
+    } 
+     
+    &__member-suptitle{  
+        margin-bottom: 17px;
+    } 
+     
+    &__member-social{ 
+        width: 100px; 
+        margin: 0 auto; 
+        display: flex; 
+        justify-content: space-between;
+    }
 }
 
 
