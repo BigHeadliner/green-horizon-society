@@ -576,7 +576,11 @@
         max-width: 115px; 
         padding: 17px 27px;
     }
-} 
+}  
+ 
+.contribute--second{ 
+    padding-top: 0;
+}
  
 .news{  
      
@@ -1056,7 +1060,28 @@
         display: flex; 
         justify-content: space-between;
     }
+} 
+ 
+.whatwedo{  
+
+   &__inner{ 
+    padding: 97px 0 97px 97px; 
+    display: flex; 
+    justify-content: space-between; 
+    // align-items: center;
+   } 
+    
+   &__title{ 
+    color:#1D2130; 
+    margin-bottom: 49px; 
+    max-width: 435px;
+   } 
+    
+   &__text{ 
+     max-width: 595px; 
+   }
 }
+
 
 
 

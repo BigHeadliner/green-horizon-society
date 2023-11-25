@@ -12,7 +12,7 @@ $(function () {
          
       });   
        
-
+                //MAGNIFIC POPUP     
       // Magnific Popup
        
       function initMagnificPopup(popupId) {
@@ -41,11 +41,11 @@ $(function () {
     }
     
     // Викликати функцію для ініціалізації Magnific Popup для першого попапу
-    initMagnificPopup('');
+    initMagnificPopup(''); 
+    initMagnificPopup('1');
     
     // Викликати функцію для ініціалізації Magnific Popup для другого попапу
     // initMagnificPopup('1'); 
-      
      
     const counterUp = window.counterUp.default
 
@@ -61,7 +61,6 @@ $(function () {
             }
         })
     }
-   
    
     const IO1 = new IntersectionObserver(callback, { threshold: 1 })
     const IO2 = new IntersectionObserver(callback, { threshold: 1 })
