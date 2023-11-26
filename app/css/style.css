@@ -3810,6 +3810,107 @@ h5 {
   max-width: 595px;
 }
 
+.forenvironment {
+  background-color: #EFF7F2;
+}
+.forenvironment__inner {
+  padding-top: 97px;
+}
+.forenvironment__items {
+  border: 1px solid transparent;
+}
+.forenvironment__title {
+  margin-bottom: 78px;
+}
+.forenvironment__item-title {
+  font-size: 25px;
+  color: #1D2130;
+  margin-bottom: 8px;
+  position: relative;
+}
+.forenvironment__item {
+  border: 1px solid transparent;
+  max-width: 375px;
+  padding-left: 53px;
+  height: 80px;
+  margin-bottom: 25px;
+}
+.forenvironment__items {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[2];
+  grid-template-rows: repeat(2, 1fr);
+  -ms-grid-columns: (1fr)[3];
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 48px;
+  -webkit-column-gap: 65px;
+     -moz-column-gap: 65px;
+          column-gap: 65px;
+  margin: 0 auto 105px;
+  max-width: 1278px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.forenvironment__item-title::before {
+  content: "";
+  width: 28px;
+  height: 28px;
+  background-image: url(../images/forenvironment/item1.svg);
+  position: absolute;
+  top: 0;
+  left: -45px;
+}
+.forenvironment__item-title--landandwater::before {
+  content: "";
+  width: 28px;
+  height: 28px;
+  background-image: url(../images/forenvironment/item2.svg);
+  position: absolute;
+  top: 0;
+  left: -45px;
+}
+.forenvironment__item-title--tree::before {
+  content: "";
+  width: 28px;
+  height: 28px;
+  background-image: url(../images/forenvironment/item3.svg);
+  position: absolute;
+  top: 0;
+  left: -45px;
+}
+.forenvironment__item-title--sustainability::before {
+  content: "";
+  width: 28px;
+  height: 28px;
+  background-image: url(../images/forenvironment/item4.svg);
+  position: absolute;
+  top: 0;
+  left: -45px;
+}
+.forenvironment__item-title--animal::before {
+  content: "";
+  width: 28px;
+  height: 28px;
+  background-image: url(../images/forenvironment/item5.svg);
+  position: absolute;
+  top: 0;
+  left: -45px;
+}
+.forenvironment__item-title--biodiversity::before {
+  content: "";
+  width: 28px;
+  height: 28px;
+  background-image: url(../images/forenvironment/item6.svg);
+  position: absolute;
+  top: 0;
+  left: -45px;
+}
+.forenvironment__text {
+  line-height: 25px;
+  color: #525560;
+}
+
 @media (max-width: 525px) {
   .fancybox-slide {
     padding: 10px;

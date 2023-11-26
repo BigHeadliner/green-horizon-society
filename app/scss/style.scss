@@ -1080,6 +1080,114 @@
    &__text{ 
      max-width: 595px; 
    }
+} 
+ 
+.forenvironment{   
+    background-color: #EFF7F2;
+
+    &__inner{ 
+        padding-top: 97px;
+    }  
+     
+    &__items{ 
+        border: 1px solid transparent;
+    }
+     
+    &__title{  
+        margin-bottom: 78px;
+    } 
+     
+ 
+    &__item-title{  
+        font-size: 25px;
+        color: #1D2130;
+        margin-bottom: 8px;
+        position: relative;
+    }    
+     
+    &__item{ 
+        border: 1px solid transparent;
+        max-width: 375px;
+        padding-left: 53px;
+        height: 80px;
+        margin-bottom: 25px;
+     } 
+     
+    &__items{ 
+        display: grid; 
+        grid-template-rows: repeat(2, 1fr); 
+        grid-template-columns: repeat(3, 1fr); 
+        row-gap: 48px ; 
+        column-gap: 65px; 
+        margin: 0 auto 105px;  
+        max-width: 1278px; 
+        justify-content: center;
+    }
+     
+    &__item-title::before{  
+        content: '';
+        width: 28px; 
+        height: 28px; 
+        background-image: url(../images/forenvironment/item1.svg); 
+        position: absolute; 
+        top: 0; 
+        left: -45px;
+    } 
+     
+    &__item-title--landandwater::before{ 
+        content: '';
+        width: 28px; 
+        height: 28px; 
+        background-image: url(../images/forenvironment/item2.svg); 
+        position: absolute; 
+        top: 0; 
+        left: -45px;   
+    } 
+     
+    &__item-title--tree::before{ 
+        content: '';
+        width: 28px; 
+        height: 28px; 
+        background-image: url(../images/forenvironment/item3.svg); 
+        position: absolute; 
+        top: 0; 
+        left: -45px;   
+    } 
+     
+    &__item-title--sustainability::before{ 
+        content: '';
+        width: 28px; 
+        height: 28px; 
+        background-image: url(../images/forenvironment/item4.svg); 
+        position: absolute; 
+        top: 0; 
+        left: -45px;   
+    } 
+     
+    &__item-title--animal::before{ 
+        content: '';
+        width: 28px; 
+        height: 28px; 
+        background-image: url(../images/forenvironment/item5.svg); 
+        position: absolute; 
+        top: 0; 
+        left: -45px;   
+    }  
+     
+    &__item-title--biodiversity::before{ 
+        content: '';
+        width: 28px; 
+        height: 28px; 
+        background-image: url(../images/forenvironment/item6.svg); 
+        position: absolute; 
+        top: 0; 
+        left: -45px;   
+    } 
+     
+    &__text {
+        line-height: 25px;
+        color: #525560;
+    }
 }
 
 
