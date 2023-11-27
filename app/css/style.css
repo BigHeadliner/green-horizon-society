@@ -4065,6 +4065,39 @@ h5 {
   margin: 0 auto;
 }
 
+.donation {
+  background-color: #EFF7F2;
+}
+.donation__inner {
+  padding: 97px 0 97px 97px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.donation__content {
+  max-width: 590px;
+}
+.donation__suptitle {
+  margin-bottom: 32px;
+}
+.donation__title {
+  color: #1D2130;
+  margin-bottom: 28px;
+}
+.donation__text {
+  margin-bottom: 32px;
+}
+.donation__btn {
+  padding: 17px 28px;
+  max-width: 150px;
+}
+
 @media (max-width: 525px) {
   .fancybox-slide {
     padding: 10px;

@@ -1351,6 +1351,39 @@
     .contact-map__iframe{  
         margin: 0 auto;
     }
+} 
+ 
+.donation{  
+    background-color: #EFF7F2; 
+
+    &__inner{ 
+      padding: 97px 0 97px 97px; 
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center;
+    }  
+
+    &__content{ 
+        max-width: 590px;
+    }
+     
+    &__suptitle{ 
+        margin-bottom: 32px;
+    } 
+     
+    &__title{ 
+        color: #1D2130; 
+        margin-bottom: 28px;
+    } 
+     
+    &__text{ 
+        margin-bottom: 32px;
+    } 
+     
+    &__btn{ 
+        padding: 17px 28px; 
+        max-width: 150px;
+    }
 }
  
 
