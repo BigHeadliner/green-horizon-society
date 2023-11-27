@@ -17,7 +17,16 @@ body {
     padding: 0 15px; 
     border: 1px solid green;  
     // border: 1px solid transparent; 
-}    
+}      
+ 
+.container-map {
+    max-width: 1310px;
+    margin: 0 auto;
+    border: 1px solid green;   
+    overflow: hidden;
+    // border: 1px solid transparent; 
+}   
+ 
  
 .main-btn{ 
    @extend %roboto-500;  

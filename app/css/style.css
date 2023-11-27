@@ -9,12 +9,12 @@
   font-weight: 500;
 }
 
-.journey__number-title3::after, .journey__number-title2::after, .journey__number-title1::after, .journey__number-title1, .journey__number-title2, .journey__number-title3, .journey__suptitle, .awards__item-title, .awards__item-date, .about-us__supporters-title, .about-us__item-suptitle, .events__item-suptitle, .events__item-month, .events__item-number, .events__title, .news__title, .wecare__point-title, .help-nature__supporters-title, .header__inner .menu .menu__list .menu__link, h5, h4, h3, h2, h1, .mp-title, .majority-suptitle {
+.contact__item-title, .journey__number-title3::after, .journey__number-title2::after, .journey__number-title1::after, .journey__number-title1, .journey__number-title2, .journey__number-title3, .journey__suptitle, .awards__item-title, .awards__item-date, .about-us__supporters-title, .about-us__item-suptitle, .events__item-suptitle, .events__item-month, .events__item-number, .events__title, .news__title, .wecare__point-title, .help-nature__supporters-title, .header__inner .menu .menu__list .menu__link, h5, h4, h3, h2, h1, .mp-title, .majority-suptitle {
   font-family: "Roboto-Bold", sans-serif;
   font-weight: 700;
 }
 
-.journey__number-title3::after, .journey__number-title2::after, .journey__number-title1::after, .journey__number-title1, .journey__number-title2, .journey__number-title3, .journey__suptitle, .awards__item-title, .awards__item-date, .about-us__supporters-title, .about-us__item-suptitle, .events__item-suptitle, .events__item-month, .events__item-number, .events__title, .news__title, .wecare__point-title, .help-nature__supporters-title, .header__inner .menu .menu__list .menu__link, h5, h4, h3, h2, h1, .mp-title, .majority-suptitle {
+.contact__item-title, .journey__number-title3::after, .journey__number-title2::after, .journey__number-title1::after, .journey__number-title1, .journey__number-title2, .journey__number-title3, .journey__suptitle, .awards__item-title, .awards__item-date, .about-us__supporters-title, .about-us__item-suptitle, .events__item-suptitle, .events__item-month, .events__item-number, .events__title, .news__title, .wecare__point-title, .help-nature__supporters-title, .header__inner .menu .menu__list .menu__link, h5, h4, h3, h2, h1, .mp-title, .majority-suptitle {
   font-family: "Poppins-Bold", sans-serif;
   font-weight: 700;
 }
@@ -2581,6 +2581,13 @@ body {
   border: 1px solid green;
 }
 
+.container-map {
+  max-width: 1310px;
+  margin: 0 auto;
+  border: 1px solid green;
+  overflow: hidden;
+}
+
 .main-btn {
   font-size: 17px;
   line-height: 19px;
@@ -3334,7 +3341,7 @@ h5 {
   font-size: 40px;
   color: #1D2130;
   border: 1px solid transparent;
-  padding-right: 25px;
+  padding-right: 10px 25px 0 10px;
   background-color: #FFF;
   max-width: 325px;
   position: absolute;
@@ -3970,6 +3977,92 @@ h5 {
 }
 .media__article-text {
   max-width: 450px;
+}
+
+.contact {
+  background-color: #EBF0F9;
+}
+.contact__top {
+  padding: 97px 0 97px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+.contact__suptitle {
+  margin-bottom: 32px;
+}
+.contact__title {
+  max-width: 470px;
+  color: #1D2130;
+  line-height: 70px;
+  margin-bottom: 17px;
+}
+.contact__text {
+  max-width: 470px;
+  color: #1D2130;
+}
+.contact__item {
+  border: 1px solid transparent;
+}
+.contact__item--letstalk {
+  margin-bottom: 48px;
+}
+.contact__item--headoffice {
+  margin-bottom: 32px;
+}
+.contact__item--branch {
+  margin-bottom: 32px;
+}
+.contact__item-title {
+  font-size: 25px;
+  color: #1D2130;
+  margin-bottom: 10px;
+}
+.contact__item-phone {
+  color: #1D2130;
+  font-size: 17px;
+  margin-right: 32px;
+}
+.contact__item-mail {
+  color: #1D2130;
+  font-size: 17px;
+}
+.contact__social {
+  max-width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.contact__form-wrapper {
+  background-color: #FFF;
+}
+
+.contact-middle {
+  padding-top: 97px;
+}
+.contact-middle__form {
+  border: 1px solid transparent;
+  max-width: 770px;
+  margin: 0 auto 97px;
+}
+.contact-middle .mp-textarea--contact {
+  width: 100%;
+  max-width: 770px;
+}
+.contact-middle__btn {
+  margin: 0 auto;
+  padding: 17px 33px;
+}
+.contact-middle .contact-map__iframe {
+  margin: 0 auto;
 }
 
 @media (max-width: 525px) {

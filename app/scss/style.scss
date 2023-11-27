@@ -595,7 +595,7 @@
         @extend %roboto-700; 
         color:#1D2130;  
         border: 1px solid transparent;  
-        padding-right: 25px; 
+        padding-right: 10px 25px 0 10px; 
         background-color:#FFF; 
         max-width: 325px; 
         position: absolute;  
@@ -1255,8 +1255,104 @@
     }
      
 }
+ 
+.contact{ 
+    background-color: #EBF0F9; 
+     
+    &__top{ 
+        padding: 97px 0 97px 0; 
+        display: flex; 
+        justify-content: space-around;  
+        align-items:start;
+        // align-items: center;
+    } 
+     
+    &__suptitle{ 
+        margin-bottom: 32px;
+    } 
+     
+    &__title{ 
+        max-width: 470px;
+        color: #1D2130; 
+        line-height: 70px; 
+        margin-bottom: 17px;
+    }  
+     
+    &__text{ 
+        max-width: 470px;
+        color: #1D2130;
+    }  
+     
+    &__item{ 
+        border: 1px solid transparent;
+    } 
+     
+    &__item--letstalk{ 
+        margin-bottom: 48px;
+    } 
+     
+    &__item--headoffice{ 
+        margin-bottom: 32px;
+    } 
+     
+    &__item--branch{ 
+        margin-bottom: 32px;  
+    }
+     
+    &__item-title{ 
+        @extend %roboto-700;   
+        font-size: 25px; 
+        color: #1D2130; 
+        margin-bottom: 10px;
+    } 
+     
+    &__item-phone{ 
+        color: #1D2130; 
+        font-size: 17px; 
+        margin-right: 32px;
+    } 
+     
+    &__item-mail{ 
+        color: #1D2130; 
+        font-size: 17px;
+    } 
+     
+    &__social{ 
+        max-width: 100px; 
+        display: flex; 
+        justify-content: space-between;
+    } 
+     
+    &__form-wrapper{ 
+        background-color:#FFF;
+    }
+}  
+ 
+.contact-middle{   
+      
+    padding-top: 97px;
 
-
+    &__form{ 
+        border: 1px solid transparent; 
+        max-width: 770px; 
+        margin: 0 auto 97px;
+    } 
+     
+    .mp-textarea--contact{  
+        width: 100%;
+        max-width: 770px;
+    } 
+     
+    &__btn{  
+        margin: 0 auto; 
+        padding: 17px 33px;
+    } 
+     
+    .contact-map__iframe{  
+        margin: 0 auto;
+    }
+}
+ 
 
   
 
