@@ -1483,6 +1483,78 @@
  
 .contribute--four{ 
   padding: 50px 0 97px;
+} 
+ 
+.footer{ 
+    background-color: #0B0706; 
+    padding: 97px 0;   
+     
+    &__inner{ 
+        display: flex; 
+        justify-content: space-between;
+    } 
+     
+    &__logo{ 
+        display: block;
+    }
+     
+    &__nav{ 
+        max-width: 370px;  
+        width: 100%;
+        display: flex; 
+        justify-content: space-between; 
+        border: 1px solid transparent;
+    }
+     
+    &__nav-mini-title{ 
+        font-size: 19px; 
+        @extend %roboto-700; 
+        color: #FFF; 
+        margin-bottom: 25px;
+    } 
+     
+    &__nav-component{ 
+        margin-bottom: 25px;
+    } 
+     
+    &__nav-link{ 
+        color: #FFF;
+    }  
+     
+    &__subscribe{ 
+        max-width: 545px;
+    }
+     
+    &__title{ 
+      @extend %roboto-700;    
+      font-size: 40px;  
+      line-height: 60px;
+      color:#FFF; 
+      margin-bottom: 32px;
+    } 
+     
+    &__subscribe-form{ 
+        position: relative;
+    }  
+     
+    &__subscribe-input{ 
+        max-width: 455px; 
+        width: 100%; 
+        border-radius: 4px; 
+        border: 1px solid #EBF0F9; 
+        padding: 23px 115px 23px 25px;  
+        background-color: #0B0706; 
+        color: #FFF;
+    } 
+     
+    &__subscribe-btn{ 
+        border-radius: 4px;   
+        padding: 23px 32px; 
+        color:#1D2130; 
+        position: absolute; 
+        top: -1px; 
+        right: 49px;
+    }
 }
  
 

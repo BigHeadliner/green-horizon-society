@@ -9,12 +9,12 @@
   font-weight: 500;
 }
 
-.contact__item-title, .journey__number-title3::after, .journey__number-title2::after, .journey__number-title1::after, .journey__number-title1, .journey__number-title2, .journey__number-title3, .journey__suptitle, .awards__item-title, .awards__item-date, .about-us__supporters-title, .about-us__item-suptitle, .events__item-suptitle, .events__item-month, .events__item-number, .events__title, .news__title, .wecare__point-title, .help-nature__supporters-title, .header__inner .menu .menu__list .menu__link, h5, h4, h3, h2, h1, .mp-title, .majority-suptitle {
+.footer__title, .footer__nav-mini-title, .contact__item-title, .journey__number-title3::after, .journey__number-title2::after, .journey__number-title1::after, .journey__number-title1, .journey__number-title2, .journey__number-title3, .journey__suptitle, .awards__item-title, .awards__item-date, .about-us__supporters-title, .about-us__item-suptitle, .events__item-suptitle, .events__item-month, .events__item-number, .events__title, .news__title, .wecare__point-title, .help-nature__supporters-title, .header__inner .menu .menu__list .menu__link, h5, h4, h3, h2, h1, .mp-title, .majority-suptitle {
   font-family: "Roboto-Bold", sans-serif;
   font-weight: 700;
 }
 
-.contact__item-title, .journey__number-title3::after, .journey__number-title2::after, .journey__number-title1::after, .journey__number-title1, .journey__number-title2, .journey__number-title3, .journey__suptitle, .awards__item-title, .awards__item-date, .about-us__supporters-title, .about-us__item-suptitle, .events__item-suptitle, .events__item-month, .events__item-number, .events__title, .news__title, .wecare__point-title, .help-nature__supporters-title, .header__inner .menu .menu__list .menu__link, h5, h4, h3, h2, h1, .mp-title, .majority-suptitle {
+.footer__title, .footer__nav-mini-title, .contact__item-title, .journey__number-title3::after, .journey__number-title2::after, .journey__number-title1::after, .journey__number-title1, .journey__number-title2, .journey__number-title3, .journey__suptitle, .awards__item-title, .awards__item-date, .about-us__supporters-title, .about-us__item-suptitle, .events__item-suptitle, .events__item-month, .events__item-number, .events__title, .news__title, .wecare__point-title, .help-nature__supporters-title, .header__inner .menu .menu__list .menu__link, h5, h4, h3, h2, h1, .mp-title, .majority-suptitle {
   font-family: "Poppins-Bold", sans-serif;
   font-weight: 700;
 }
@@ -2579,6 +2579,7 @@ body {
   margin: 0 auto;
   padding: 0 15px;
   border: 1px solid green;
+  border: 1px solid transparent;
 }
 
 .container-map {
@@ -2586,6 +2587,7 @@ body {
   margin: 0 auto;
   border: 1px solid green;
   overflow: hidden;
+  border: 1px solid transparent;
 }
 
 .main-btn {
@@ -4185,6 +4187,73 @@ h5 {
 
 .contribute--four {
   padding: 50px 0 97px;
+}
+
+.footer {
+  background-color: #0B0706;
+  padding: 97px 0;
+}
+.footer__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footer__logo {
+  display: block;
+}
+.footer__nav {
+  max-width: 370px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid transparent;
+}
+.footer__nav-mini-title {
+  font-size: 19px;
+  color: #FFF;
+  margin-bottom: 25px;
+}
+.footer__nav-component {
+  margin-bottom: 25px;
+}
+.footer__nav-link {
+  color: #FFF;
+}
+.footer__subscribe {
+  max-width: 545px;
+}
+.footer__title {
+  font-size: 40px;
+  line-height: 60px;
+  color: #FFF;
+  margin-bottom: 32px;
+}
+.footer__subscribe-form {
+  position: relative;
+}
+.footer__subscribe-input {
+  max-width: 455px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #EBF0F9;
+  padding: 23px 115px 23px 25px;
+  background-color: #0B0706;
+  color: #FFF;
+}
+.footer__subscribe-btn {
+  border-radius: 4px;
+  padding: 23px 32px;
+  color: #1D2130;
+  position: absolute;
+  top: -1px;
+  right: 49px;
 }
 
 @media (max-width: 525px) {
