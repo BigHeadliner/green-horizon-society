@@ -4068,7 +4068,7 @@ h5 {
 .donation {
   background-color: #EFF7F2;
 }
-.donation__inner {
+.donation__top {
   padding: 97px 0 97px 97px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4096,6 +4096,91 @@ h5 {
 .donation__btn {
   padding: 17px 28px;
   max-width: 150px;
+}
+.donation__earth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #E5E5E5;
+}
+.donation__earth-title {
+  margin-bottom: 25px;
+}
+.donation__earth-content {
+  max-width: 595px;
+}
+.donation__tab-box {
+  border: 1px solid transparent;
+}
+.donation__inner {
+  border: 1px solid transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.donation__box {
+  -ms-flex-preferred-size: 510px;
+      flex-basis: 510px;
+  margin-right: 90px;
+  border: 1px solid transparent;
+}
+.donation__content {
+  -ms-flex-preferred-size: 600px;
+      flex-basis: 600px;
+  border: 1px solid transparent;
+}
+.donation__content-text {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  margin-bottom: 17px;
+}
+.donation__tabs {
+  max-width: 595px;
+}
+.donation__tabs-items {
+  margin-bottom: 50px;
+}
+.donation__tabs-item {
+  font-size: 18px;
+  line-height: 25px;
+  margin-right: 40px;
+  color: #525560;
+  padding: 10px 24px;
+}
+.donation__tabs-item.donation__tabs-item--active {
+  color: #0B0706;
+}
+.donation__tabs-item--active {
+  border-bottom: 2px solid #70C174;
+}
+.donation__tabs-contentbox {
+  margin-bottom: 100px;
+}
+.donation__tabs-content {
+  display: none;
+}
+.donation__tabs-content--active {
+  display: block;
+}
+.donation__yourdonationuse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 97px;
+  margin-bottom: 95px;
+}
+.donation__yourdonationuse-title {
+  max-width: 375px;
+}
+.donation__yourdonationuse-text {
+  max-width: 375px;
 }
 
 @media (max-width: 525px) {

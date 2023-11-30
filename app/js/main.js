@@ -73,7 +73,18 @@ $(function () {
 
     IO1.observe(el1)
     IO2.observe(el2)
-    IO3.observe(el3)
+    IO3.observe(el3)  
+    
+     
+    $('.donation__tabs-item ').on('click', function (e) {
+        e.preventDefault();
+        $('.donation__tabs-item ').removeClass('donation__tabs-item--active');
+        $(this).addClass('donation__tabs-item--active'); 
+
+        $('.donation__tabs-content').removeClass('donation__tabs-content--active');
+        $($(this).attr('href')).addClass('donation__tabs-content--active');
+
+    });
     
 
     

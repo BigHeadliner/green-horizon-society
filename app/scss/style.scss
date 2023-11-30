@@ -1356,7 +1356,7 @@
 .donation{  
     background-color: #EFF7F2; 
 
-    &__inner{ 
+    &__top{ 
       padding: 97px 0 97px 97px; 
       display: flex; 
       justify-content: space-between; 
@@ -1383,7 +1383,102 @@
     &__btn{ 
         padding: 17px 28px; 
         max-width: 150px;
+    }   
+     
+    &__earth{ 
+        display: flex; 
+        justify-content: space-between;  
+        border-bottom: 1px solid #E5E5E5;
     }
+     
+    &__earth-title{ 
+        margin-bottom: 25px;
+    }
+     
+    &__earth-content{ 
+        max-width: 595px;
+    } 
+    
+     &__tab-box{ 
+         border: 1px solid transparent;
+     } 
+     
+ 
+     
+     &__inner {
+       border: 1px solid transparent; 
+       display: flex;
+     }
+     
+     &__box {
+       flex-basis: 510px;
+       margin-right:90px;  
+       border: 1px solid transparent; 
+     }
+     
+    &__content {
+      flex-basis: 600px;
+      border: 1px solid transparent;
+    }
+     
+    &__content-text {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 25px;
+      margin-bottom: 17px;
+    }
+      
+    &__tabs{ 
+        max-width: 595px;
+    }
+     
+    &__tabs-items {
+      margin-bottom: 50px; 
+    }
+     
+    &__tabs-item {
+      font-size: 18px;
+      line-height: 25px;
+      margin-right: 40px; 
+      color:#525560; 
+      padding: 10px 24px;
+    } 
+     
+    &__tabs-item.donation__tabs-item--active{  
+        color: #0B0706;
+    }
+     
+    &__tabs-item--active {
+      border-bottom: 2px solid #70C174;
+    } 
+     
+    &__tabs-contentbox {
+        margin-bottom: 100px;
+      }
+     
+    &__tabs-content {
+      display: none;
+    }
+     
+    &__tabs-content--active {
+      display: block;
+    }   
+
+    &__yourdonationuse{ 
+        display: flex; 
+        justify-content: space-between; 
+        padding-top: 97px; 
+        margin-bottom: 95px;
+    }
+     
+    &__yourdonationuse-title{ 
+        max-width: 375px;
+    }  
+     
+    &__yourdonationuse-text{ 
+        max-width: 375px; 
+    }
+     
 }
  
 
