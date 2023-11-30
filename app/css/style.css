@@ -4174,13 +4174,17 @@ h5 {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-top: 97px;
-  margin-bottom: 95px;
+  margin-bottom: 45px;
 }
 .donation__yourdonationuse-title {
   max-width: 375px;
 }
 .donation__yourdonationuse-text {
   max-width: 375px;
+}
+
+.contribute--four {
+  padding: 50px 0 97px;
 }
 
 @media (max-width: 525px) {
