@@ -202,4 +202,48 @@ h5{
     color:#1D2130;
 }
  
+  
  
+@media(max-width:930px) {     
+         
+    h1 {
+        font-size: 55px;
+        color: #FFF;
+        line-height: 65px;
+    }
+
+   } 
+    
+   @media(max-width: 705px) {  
+    h1 {
+        font-size: 45px;
+     }
+    }  
+     
+    @media(max-width: 500px) {   
+
+        h1 {
+            font-size: 35px; 
+            line-height: 54px;
+         }  
+          
+        }   
+         
+  @media(max-width: 395px) {   
+
+      h1 {
+          font-size: 30px;
+          line-height: 50px;
+       }  
+        
+      }   
+       
+   @media(max-width: 350px) {   
+
+      h1 {
+          font-size: 27px;
+          line-height: 47px;
+      }
+       
+  }  
+
