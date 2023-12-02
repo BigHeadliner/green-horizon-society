@@ -2792,6 +2792,10 @@ h5 {
     font-size: 35px;
     line-height: 54px;
   }
+  h3 {
+    font-size: 40px;
+    line-height: 50px;
+  }
 }
 @media (max-width: 439px) {
   h3 {
@@ -2812,7 +2816,7 @@ h5 {
   }
   h3 {
     font-size: 31px;
-    line-height: 45px;
+    line-height: 40px;
   }
 }
 @media (max-width: 320px) {
@@ -4317,6 +4321,25 @@ h5 {
   .main__bottom-text {
     white-space: nowrap;
   }
+  .wecare__main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 0;
+  }
+  .wecare__img {
+    margin: 0;
+  }
+  .wecare__content {
+    padding: 95px 0 85px 0;
+  }
 }
 @media (max-width: 1245px) {
   .help-nature__main {
@@ -4354,6 +4377,14 @@ h5 {
 @media (max-width: 930px) {
   .main__buttons {
     margin-bottom: 150px;
+  }
+  .wecare__content {
+    padding: 95px 0 75px 0;
+  }
+}
+@media (max-width: 815px) {
+  .wecare__content {
+    padding: 57px 0 75px 0;
   }
 }
 @media (max-width: 775px) {
@@ -4404,12 +4435,21 @@ h5 {
     display: block;
   }
 }
+@media (max-width: 630px) {
+  .wecare__content {
+    padding: 57px 0 57px 0;
+  }
+}
 @media (max-width: 585px) {
   .main__buttons {
     margin-bottom: 75px;
   }
   .main__bottom-text {
     font-size: 17px;
+  }
+  .wecare__img {
+    max-width: 435px;
+    height: 614px;
   }
 }
 @media (max-width: 530px) {
@@ -4451,11 +4491,31 @@ h5 {
     height: 54px;
   }
 }
+@media (max-width: 455px) {
+  .wecare__img {
+    max-width: 380px;
+    height: 559px;
+  }
+  .wecare__point {
+    margin-bottom: 40px;
+  }
+}
 @media (max-width: 438px) {
   .help-nature__video {
     border: 1px solid transparent;
     max-width: 350px;
     height: 448px;
+  }
+  .wecare__content {
+    padding: 47px 0 37px 0;
+  }
+  .wecare__img {
+    max-width: 350px;
+    height: 529px;
+  }
+  .wecare__text {
+    font-size: 15px;
+    line-height: 23px;
   }
 }
 @media (max-width: 395px) {
@@ -4464,6 +4524,12 @@ h5 {
   }
   .main__inner {
     padding-top: 155px;
+  }
+  .wecare__point-title {
+    font-size: 21px;
+  }
+  .wecare__content {
+    padding: 47px 0 5px 0;
   }
 }
 @media (max-width: 350px) {
@@ -4481,6 +4547,25 @@ h5 {
   .help-nature__supporters {
     padding: 41px 0 15px 0;
   }
+  .wecare__content {
+    padding: 37px 0 5px 0;
+  }
+  .wecare__suptitle {
+    margin-bottom: 15px;
+  }
+  .wecare__subtitle {
+    margin-bottom: 35px;
+  }
+  .wecare__img {
+    max-width: 300px;
+    height: 425px;
+  }
+  .wecare__point {
+    margin-bottom: 70px;
+  }
+  .wecare__point-title {
+    font-size: 20px;
+  }
 }
 @media (max-width: 338px) {
   .help-nature__video {
@@ -4493,5 +4578,18 @@ h5 {
   }
   .help-nature__main {
     margin-bottom: 54px;
+  }
+  .wecare__content {
+    padding: 37px 0px 0px 0px;
+  }
+  .wecare__point-title {
+    font-size: 18px;
+  }
+  .wecare__point--nomargin {
+    margin-bottom: 65px;
+  }
+  .wecare__img {
+    max-width: 300px;
+    height: 405px;
   }
 }
