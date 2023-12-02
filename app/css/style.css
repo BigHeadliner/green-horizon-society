@@ -2773,6 +2773,15 @@ h5 {
     line-height: 65px;
   }
 }
+@media (max-width: 830px) {
+  .majority-suptitle {
+    font-size: 17px;
+    position: relative;
+  }
+  .majority-suptitle::before {
+    display: none;
+  }
+}
 @media (max-width: 705px) {
   h1 {
     font-size: 45px;
@@ -2782,6 +2791,12 @@ h5 {
   h1 {
     font-size: 35px;
     line-height: 54px;
+  }
+}
+@media (max-width: 439px) {
+  h3 {
+    font-size: 34px;
+    line-height: 50px;
   }
 }
 @media (max-width: 395px) {
@@ -2794,6 +2809,15 @@ h5 {
   h1 {
     font-size: 27px;
     line-height: 47px;
+  }
+  h3 {
+    font-size: 31px;
+    line-height: 45px;
+  }
+}
+@media (max-width: 320px) {
+  .majority-suptitle {
+    font-size: 15px;
   }
 }
 .header {
@@ -4294,6 +4318,39 @@ h5 {
     white-space: nowrap;
   }
 }
+@media (max-width: 1245px) {
+  .help-nature__main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 0;
+  }
+  .help-nature__content {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 975px) {
+  .help-nature__supporters {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .help-nature__supporter {
+    margin: 25px;
+  }
+}
 @media (max-width: 930px) {
   .main__buttons {
     margin-bottom: 150px;
@@ -4355,6 +4412,13 @@ h5 {
     font-size: 17px;
   }
 }
+@media (max-width: 530px) {
+  .help-nature__video {
+    border: 1px solid transparent;
+    max-width: 440px;
+    height: 538px;
+  }
+}
 @media (max-width: 525px) {
   .fancybox-slide {
     padding: 10px;
@@ -4373,6 +4437,27 @@ h5 {
     margin-bottom: 35px;
   }
 }
+@media (max-width: 478px) {
+  .help-nature__suptitle {
+    margin-bottom: 19px;
+  }
+  .help-nature__video {
+    border: 1px solid transparent;
+    max-width: 400px;
+    height: 498px;
+  }
+  .help-nature__video-play {
+    width: 54px;
+    height: 54px;
+  }
+}
+@media (max-width: 438px) {
+  .help-nature__video {
+    border: 1px solid transparent;
+    max-width: 350px;
+    height: 448px;
+  }
+}
 @media (max-width: 395px) {
   .main__bottom-text {
     display: none;
@@ -4384,5 +4469,29 @@ h5 {
 @media (max-width: 350px) {
   .main__bottom {
     display: none;
+  }
+  .help-nature__text--biggermargin {
+    margin-bottom: 30px;
+  }
+  .help-nature__video {
+    border: 1px solid transparent;
+    max-width: 317px;
+    height: 415px;
+  }
+  .help-nature__supporters {
+    padding: 41px 0 15px 0;
+  }
+}
+@media (max-width: 338px) {
+  .help-nature__video {
+    border: 1px solid transparent;
+    max-width: 288px;
+    height: 386px;
+  }
+  .help-nature__supporters-title {
+    font-size: 15px;
+  }
+  .help-nature__main {
+    margin-bottom: 54px;
   }
 }
