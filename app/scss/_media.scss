@@ -77,7 +77,37 @@
             margin-bottom: 50px;
         }
 
-       } 
+       }  
+        
+       @media(max-width:1135px) {  
+         
+        // donations
+         
+        .donations {
+            padding: 70px 0;
+        }
+
+       }  
+        
+       @media(max-width:1095px) {   
+         
+        // donations
+         
+        .donations__inner{ 
+            flex-direction: column;
+        } 
+         
+        .donations__img{ 
+            order: 1; 
+            margin-bottom: 50px;
+        } 
+         
+        .donations__content{ 
+            order: 3;
+        }
+
+       }
+
         
        @media(max-width:975px) {    
          
@@ -200,7 +230,22 @@
             text-align: center;
         }
 
-       }   
+       }    
+        
+       @media(max-width: 675px) {   
+         
+        // donations
+         
+        .donations__jobdone {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            row-gap: 15px;
+            column-gap: 25px;
+        }
+        
+        
+
+       }
          
        @media(max-width: 630px) {  
          
@@ -310,6 +355,18 @@
          
         .wecare__point {
             margin-bottom: 40px;
+        } 
+         
+        // donations
+
+        .donations__jobdone {
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(5, 1fr);
+            row-gap: 15px;
+        } 
+         
+        .donations {
+            padding: 70px 0 50px 0;
         }
 
     }
@@ -512,7 +569,8 @@
             height: 405px;
         }
 
-    }
+    } 
+     
      
 
 
