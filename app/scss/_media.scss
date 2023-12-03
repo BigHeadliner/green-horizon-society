@@ -1,5 +1,19 @@
- 
-   
+   @media(max-width:1295px) {    
+     
+    //  society
+      
+     .society__items{ 
+       flex-wrap: wrap; 
+       justify-content: center;
+     } 
+      
+     .society__item{ 
+        margin: 10px;
+     }
+
+    }
+    
+
     
      
        @media(max-width:1275px) {   
@@ -24,11 +38,25 @@
         } 
           
         .wecare__img{ 
-           margin: 0;
+           margin: 0 0 35px 0;
         } 
          
         .wecare__content {
             padding: 95px 0 85px 0;
+        }  
+         
+        // society
+         
+         .society__content{ 
+            padding: 95px 0 0 137px;
+         } 
+          
+         .society__title {
+            margin-bottom: 40px;
+        } 
+         
+        .society__items {
+            margin-bottom: 70px;
         }
 
        }     
@@ -133,6 +161,23 @@
          
         .header__inner .menu .menu__list .menu__link { 
             color:#FFF; 
+        }  
+         
+        // society
+         
+        .society__content {
+            padding: 95px 0 0 0; 
+            display: flex; 
+            flex-direction: column; 
+            align-items:center;
+        }  
+         
+        .society__suptitle {
+            margin-bottom: 35px;
+        } 
+         
+        .society__content {
+            padding: 75px 0 0 0; 
         }
 
        } 
@@ -149,7 +194,12 @@
             max-width: 587px;
             margin-bottom: 48px;
             display: block;
+        }   
+
+        .society__content{ 
+            text-align: center;
         }
+
        }   
          
        @media(max-width: 630px) {  
@@ -288,7 +338,41 @@
         .wecare__text { 
             font-size: 15px;
             line-height: 23px;
+        }  
+
+        // society  
+
+        .society__item{ 
+            height: 395px;
+        } 
+         
+        .society__item-text {
+            color: #FFF;
+            margin-bottom: 35px;
         }
+
+    } 
+     
+    @media(max-width:425px) {   
+         
+        // society
+       
+        .society__item{ 
+            height: 377px;
+        } 
+
+        .society__item-text{ 
+            font-size: 15px;
+        }
+    } 
+     
+    @media(max-width:420px) {    
+         
+        // society
+       
+        .society__item-text {
+            margin-bottom: 21px;
+        }   
 
     }
      
@@ -314,9 +398,23 @@
          
         .wecare__content {
             padding: 47px 0 5px 0;
+        }  
+         
+        // society 
+
+        .society__item { 
+            padding: 28px 25px 0px 25px; 
+            height: 315px;
+        } 
+         
+        .society__item-text {
+            margin-bottom: 27px;
         }
 
-    }  
+
+    }   
+     
+ 
      
     @media(max-width:350px) {    
 
@@ -367,6 +465,12 @@
      
     .wecare__point-title {
         font-size: 20px;
+    }  
+     
+    // society
+      
+    .society__item {
+        height: 335px;
     }
 
     } 
