@@ -1,4 +1,16 @@
-   @media(max-width:1295px) {    
+@media(max-width:1309px) {   
+     
+    // events
+     
+    .events__items{ 
+       flex-direction: column;
+       align-items:center; 
+       row-gap: 34px;
+    }
+
+}   
+     
+ @media(max-width:1295px) {    
      
     //  society
       
@@ -245,6 +257,12 @@
          
         .news__inner {
             padding-top: 69px; 
+        } 
+          
+        // events 
+
+        .events__title {
+            font-size: 34px; 
         }
 
        } 
@@ -295,7 +313,17 @@
             width: 455px;
         }
         
+       } 
         
+       @media(max-width: 635px) {    
+         
+        // events
+          
+        .events__item {
+            padding: 32px 25px 40px 25px;
+        }
+        
+         
 
        }
          
@@ -333,6 +361,24 @@
          
         .mp-title {
             font-size: 23px;
+        } 
+          
+        // events 
+
+        .events__item-number {
+            font-size: 35px; 
+        } 
+         
+        .events__item-month {
+            font-size: 15px; 
+        } 
+         
+        .events__item-suptitle {
+            font-size: 14px; 
+        } 
+          
+        .events__item-suptitle::after{ 
+            display: none;
         }
 
        }
@@ -370,7 +416,29 @@
          margin-bottom: 34px;
         }
 
-      } 
+      }  
+       
+      @media(max-width: 575px){   
+         
+        // events
+
+        .events__item-date{ 
+            display: none;
+        } 
+         
+        .events__item {
+            height: 175px;
+        } 
+         
+        .events__inner {
+            padding-top: 55px; 
+        } 
+         
+        .events__title {
+            font-size: 28px;
+        }
+
+      }
        
       @media(max-width:530px) {   
          
@@ -390,6 +458,12 @@
          
         .mp-textarea {
             width: 325px;
+        }  
+         
+        // events
+         
+        .events__items {
+            row-gap: 19px; 
         }
 
        }
@@ -453,8 +527,15 @@
         .help-nature__video-play {
             width: 54px;
             height: 54px; 
-        }
- 
+        } 
+          
+        // events 
+
+        .events__item-content{ 
+            padding-right: 35px;
+        } 
+         
+      
     } 
      
     @media(max-width:455px) {    
@@ -490,6 +571,10 @@
          
         .mp-textarea {
             width: 270px;
+        } 
+         
+        .events__item-title--long{ 
+            max-width: 173px;
         }
 
     }
@@ -529,7 +614,8 @@
         .society__item-text {
             color: #FFF;
             margin-bottom: 35px;
-        }
+        }  
+         
 
     } 
      
@@ -638,6 +724,13 @@
          
         .news__inner{  
             border-top: 1px solid transparent;
+        } 
+          
+         
+        // events
+          
+        .events__item {
+            padding: 32px 19px 40px 19px;
         }
 
 

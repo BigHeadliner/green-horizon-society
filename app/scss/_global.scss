@@ -249,7 +249,16 @@ h5{
         }
 
     }
-     
+      
+    @media(max-width:595px){ 
+         
+        h4 {
+            font-size: 20px;
+            line-height: 31px; 
+        }
+        
+    } 
+
     @media(max-width: 500px) {   
 
         h1 {
@@ -267,7 +276,16 @@ h5{
             line-height: 50px;
          }   
         
-    }    
+    }     
+     
+   @media(max-width: 478px){ 
+     
+    h4 {
+        font-size: 15px;
+        line-height: 25px; 
+    }
+
+   } 
          
     @media(max-width: 439px) {   
 
@@ -277,9 +295,9 @@ h5{
          }   
           
          h4 {
-            font-size: 25px;
-            line-height: 34px;
-        }
+            font-size: 15px;
+            line-height: 25px;
+         }
           
         }  
          
@@ -311,10 +329,6 @@ h5{
         line-height: 35px;
      }
       
-     h4 {
-        font-size: 21px;
-        line-height: 31px;
-    }
        
   }    
    

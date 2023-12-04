@@ -2799,6 +2799,12 @@ h5 {
     line-height: 47px;
   }
 }
+@media (max-width: 595px) {
+  h4 {
+    font-size: 20px;
+    line-height: 31px;
+  }
+}
 @media (max-width: 500px) {
   h1 {
     font-size: 35px;
@@ -2811,14 +2817,20 @@ h5 {
     line-height: 50px;
   }
 }
+@media (max-width: 478px) {
+  h4 {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
 @media (max-width: 439px) {
   h3 {
     font-size: 31px;
     line-height: 50px;
   }
   h4 {
-    font-size: 25px;
-    line-height: 34px;
+    font-size: 15px;
+    line-height: 25px;
   }
 }
 @media (max-width: 395px) {
@@ -2839,10 +2851,6 @@ h5 {
   h3 {
     font-size: 23px;
     line-height: 35px;
-  }
-  h4 {
-    font-size: 21px;
-    line-height: 31px;
   }
 }
 @media (max-width: 325px) {
@@ -4349,6 +4357,18 @@ h5 {
   right: 49px;
 }
 
+@media (max-width: 1309px) {
+  .events__items {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    row-gap: 34px;
+  }
+}
 @media (max-width: 1295px) {
   .society__items {
     -ms-flex-wrap: wrap;
@@ -4548,6 +4568,9 @@ h5 {
   .news__inner {
     padding-top: 69px;
   }
+  .events__title {
+    font-size: 34px;
+  }
 }
 @media (max-width: 705px) {
   .main__buttons {
@@ -4584,6 +4607,11 @@ h5 {
     width: 455px;
   }
 }
+@media (max-width: 635px) {
+  .events__item {
+    padding: 32px 25px 40px 25px;
+  }
+}
 @media (max-width: 630px) {
   .wecare__content {
     padding: 57px 0 57px 0;
@@ -4605,6 +4633,18 @@ h5 {
   .mp-title {
     font-size: 23px;
   }
+  .events__item-number {
+    font-size: 35px;
+  }
+  .events__item-month {
+    font-size: 15px;
+  }
+  .events__item-suptitle {
+    font-size: 14px;
+  }
+  .events__item-suptitle::after {
+    display: none;
+  }
 }
 @media (max-width: 585px) {
   .main__buttons {
@@ -4625,6 +4665,20 @@ h5 {
     margin-bottom: 34px;
   }
 }
+@media (max-width: 575px) {
+  .events__item-date {
+    display: none;
+  }
+  .events__item {
+    height: 175px;
+  }
+  .events__inner {
+    padding-top: 55px;
+  }
+  .events__title {
+    font-size: 28px;
+  }
+}
 @media (max-width: 530px) {
   .help-nature__video {
     border: 1px solid transparent;
@@ -4636,6 +4690,9 @@ h5 {
   }
   .mp-textarea {
     width: 325px;
+  }
+  .events__items {
+    row-gap: 19px;
   }
 }
 @media (max-width: 525px) {
@@ -4675,6 +4732,9 @@ h5 {
     width: 54px;
     height: 54px;
   }
+  .events__item-content {
+    padding-right: 35px;
+  }
 }
 @media (max-width: 455px) {
   .wecare__img {
@@ -4699,6 +4759,9 @@ h5 {
   }
   .mp-textarea {
     width: 270px;
+  }
+  .events__item-title--long {
+    max-width: 173px;
   }
 }
 @media (max-width: 438px) {
@@ -4791,6 +4854,9 @@ h5 {
   }
   .news__inner {
     border-top: 1px solid transparent;
+  }
+  .events__item {
+    padding: 32px 19px 40px 19px;
   }
 }
 @media (max-width: 350px) {
