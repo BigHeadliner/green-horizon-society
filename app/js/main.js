@@ -30,7 +30,6 @@ $(function () {
       });   
        
                 //MAGNIFIC POPUP     
-      // Magnific Popup
        
       function initMagnificPopup(popupId) {
         $('#openPopupBtn' + popupId).magnificPopup({
@@ -62,7 +61,8 @@ $(function () {
     initMagnificPopup('1');
     
     // Викликати функцію для ініціалізації Magnific Popup для другого попапу
-    // initMagnificPopup('1'); 
+    // initMagnificPopup('1');  
+     
      
     const counterUp = window.counterUp.default
 
