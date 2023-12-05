@@ -127,7 +127,25 @@
          
         .journey__content{ 
             order: 3;  
-        }
+        } 
+          
+        // team 
+
+        .team__member{ 
+            border: 1px solid transparent; 
+            margin: 0 auto; 
+        } 
+         
+        .team__members {
+            border: 1px solid transparent;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            column-gap: 32px;
+            row-gap: 32px;  
+            max-width: 955px; 
+            margin: 0 auto 97px;
+        } 
+
 
        }    
         
@@ -230,6 +248,23 @@
             padding: 83px 25px 64px 25px;
         }
     
+      } 
+       
+      @media(max-width:985px) {     
+         
+         // team
+         
+        .team__subtitle {
+            margin-bottom: 35px;
+        }
+         
+        .team__members {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+            max-width: 623px;
+            margin: 0 auto 50px;
+        }
+
       }
 
         
@@ -458,7 +493,23 @@
             margin-bottom: 17px;
         }
         
-       } 
+       }  
+        
+       @media(max-width: 650px) {     
+         
+         // team
+         
+        .team__members {
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(8, 1fr);
+            max-width: 623px;
+            margin: 0 auto 50px;
+        }
+
+  
+
+
+       }
         
        @media(max-width: 635px) {    
          
@@ -987,6 +1038,18 @@
          
         .journey__text {
             margin-bottom: 34px; 
+        }  
+
+        // team 
+         
+        .team__subtitle{ 
+            font-size: 15px;  
+            margin-bottom: 21px; 
+            line-height: 25px;
+        } 
+         
+        .team__title {
+            margin-bottom: 14px;
         }
 
     }
