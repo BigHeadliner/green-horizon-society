@@ -48,7 +48,20 @@
 
     }
     
-    
+    @media(max-width:1280px) {    
+         
+        // media
+
+        .media__inner{ 
+          display: flex; 
+          flex-direction: column; 
+          padding: 97px 0 0 0;
+        } 
+         
+        .media__cntent{ 
+            margin-bottom: 50px;
+        }
+    }
     
      
        @media(max-width:1275px) {   
@@ -772,9 +785,25 @@
         
       .journey__suptitle {
           margin-bottom: 15px;
-       }
-
+       }  
+        
+    // media
+        
+       .media__article{  
+         display: flex;
+         flex-direction: column; 
+         text-align: center;
+       } 
+        
+       .media__article-img {
+        width: 250px;
+        height: 190px;
+        border-radius: 8px;
+        margin: 0 auto; 
+      }
     }
+
+
          
 
      
