@@ -193,6 +193,10 @@
          
         .forenvironment__title{ 
             text-align: center;
+        } 
+         
+        .contact__suptitle{ 
+            display: none;
         }
 
 
@@ -371,6 +375,18 @@
          
         .awards__items {
             margin: 0 auto 19px;
+        }  
+         
+        // contact
+         
+        .contact__top{ 
+          display: flex; 
+          flex-direction: column; 
+          align-items: center;
+        } 
+         
+        .contact__content{ 
+            margin-bottom: 50px;
         }
 
        }   
@@ -535,6 +551,12 @@
             color: #1D2130;
             // margin-bottom: 37px;  
           
+        } 
+          
+        // contact 
+
+        .contact__title{ 
+          line-height: 45px;
         }
 
        }    
@@ -800,7 +822,11 @@
         height: 190px;
         border-radius: 8px;
         margin: 0 auto; 
-      }
+      } 
+       
+      .media__article-content {
+        padding: 17px 0 0 0;
+     }
     }
 
 
@@ -1002,7 +1028,13 @@
        
         .society__item-text {
             margin-bottom: 21px;
-        }   
+        }     
+          
+        // contact 
+
+        .contact__title {
+            line-height: 35px;
+        }
 
     }
      
