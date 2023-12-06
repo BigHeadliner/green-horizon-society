@@ -2793,7 +2793,7 @@ h5 {
   }
   h2 {
     font-size: 43px;
-    line-height: 57px;
+    line-height: 49px;
   }
 }
 @media (max-width: 630px) {
@@ -4509,6 +4509,45 @@ h5 {
     max-width: 955px;
     margin: 0 auto 97px;
   }
+  .whatwedo__inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 97px 0 97px 0;
+  }
+  .whatwedo__content {
+    margin-bottom: 55px;
+  }
+  .forenvironment__items {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: (1fr)[3];
+    grid-template-rows: repeat(3, 1fr);
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 48px;
+    -webkit-column-gap: 48px;
+       -moz-column-gap: 48px;
+            column-gap: 48px;
+    margin: 0 auto 105px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    max-width: 817px;
+  }
+  .forenvironment__title {
+    text-align: center;
+  }
 }
 @media (max-width: 1175px) {
   .awards__items {
@@ -4600,6 +4639,9 @@ h5 {
     max-width: 623px;
     margin: 0 auto 50px;
   }
+  .forenvironment__title {
+    margin-bottom: 70px;
+  }
 }
 @media (max-width: 975px) {
   .help-nature__supporters {
@@ -4658,6 +4700,25 @@ h5 {
   }
   .about-us__title {
     margin-bottom: 37px;
+  }
+}
+@media (max-width: 855px) {
+  .forenvironment__items {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: (1fr)[6];
+    grid-template-rows: repeat(6, 1fr);
+    -ms-grid-columns: (1fr)[1];
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 48px;
+    -webkit-column-gap: 48px;
+       -moz-column-gap: 48px;
+            column-gap: 48px;
+    margin: 0 auto 105px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    max-width: 375px;
   }
 }
 @media (max-width: 815px) {
@@ -4742,6 +4803,9 @@ h5 {
   }
   .society__content {
     text-align: center;
+  }
+  .whatwedo__title {
+    color: #1D2130;
   }
 }
 @media (max-width: 675px) {
@@ -4952,6 +5016,12 @@ h5 {
   .events__item-content {
     padding-right: 35px;
   }
+  .whatwedo__suptitle {
+    margin-bottom: 9px;
+  }
+  .whatwedo__title {
+    margin-bottom: 34px;
+  }
 }
 @media (max-width: 455px) {
   .wecare__img {
@@ -5116,6 +5186,13 @@ h5 {
   .team__title {
     margin-bottom: 14px;
   }
+  .forenvironment__text {
+    font-size: 15px;
+  }
+  .forenvironment__title {
+    font-size: 29px;
+    line-height: 35px;
+  }
 }
 @media (max-width: 350px) {
   .main__bottom {
@@ -5196,6 +5273,12 @@ h5 {
     position: absolute;
     top: 0;
     right: -21px;
+  }
+  .forenvironment__title {
+    margin-bottom: 45px;
+  }
+  .forenvironment__item-title {
+    font-size: 21px;
   }
 }
 @media (max-width: 338px) {

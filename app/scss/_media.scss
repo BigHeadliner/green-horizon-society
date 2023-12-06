@@ -92,7 +92,11 @@
          
         .society__items {
             margin-bottom: 70px;
-        }
+        }  
+         
+        // forenvironment
+         
+        
 
        }     
         
@@ -144,7 +148,39 @@
             row-gap: 32px;  
             max-width: 955px; 
             margin: 0 auto 97px;
+        }   
+         
+        // whatwedo
+         
+        .whatwedo__inner{ 
+            display: flex; 
+            flex-direction: column; 
+            align-items:center;  
+            justify-content: center;
+            padding: 97px 0 97px 0;
         } 
+         
+        .whatwedo__content{ 
+            margin-bottom: 55px;
+        } 
+          
+        //forenvironment  
+
+        
+        .forenvironment__items {
+            display: grid;
+            grid-template-rows: repeat(3, 1fr); 
+            grid-template-columns: repeat(2, 1fr);
+            row-gap: 48px;
+            column-gap: 48px;
+            margin: 0 auto 105px;
+            justify-content: center; 
+            max-width: 817px;
+        } 
+         
+        .forenvironment__title{ 
+            text-align: center;
+        }
 
 
        }    
@@ -263,7 +299,13 @@
             grid-template-rows: repeat(4, 1fr);
             max-width: 623px;
             margin: 0 auto 50px;
-        }
+        }  
+         
+        // forenvironment
+         
+         .forenvironment__title {
+             margin-bottom: 70px;
+         }
 
       }
 
@@ -346,7 +388,26 @@
             margin-bottom: 37px; 
         } 
 
-       }
+       } 
+        
+       @media(max-width: 855px) {   
+         
+         
+        // forenvironment
+         
+        .forenvironment__items {
+            display: grid;
+            grid-template-rows: repeat(6, 1fr);
+            grid-template-columns: repeat(1, 1fr);
+            row-gap: 48px;
+            column-gap: 48px;
+            margin: 0 auto 105px;
+            justify-content: center;
+            max-width: 375px; 
+          }
+        }
+
+       
         
        @media(max-width: 815px) {     
          
@@ -453,6 +514,14 @@
 
         .society__content{ 
             text-align: center;
+        }  
+         
+        // whatwedo
+         
+        .whatwedo__title {
+            color: #1D2130;
+            // margin-bottom: 37px;  
+          
         }
 
        }    
@@ -789,7 +858,17 @@
 
         .events__item-content{ 
             padding-right: 35px;
+        }  
+         
+        // whatwedo
+
+        .whatwedo__suptitle{  
+            margin-bottom: 9px;
         } 
+         
+        .whatwedo__title {
+            margin-bottom: 34px;
+        }
          
       
     } 
@@ -1050,6 +1129,17 @@
          
         .team__title {
             margin-bottom: 14px;
+        } 
+          
+        // forenvironment 
+
+        .forenvironment__text{ 
+           font-size: 15px;
+        } 
+         
+        .forenvironment__title{ 
+            font-size: 29px;
+            line-height: 35px;
         }
 
     }
@@ -1170,6 +1260,16 @@
         position: absolute;
         top: 0;
         right: -21px;
+    } 
+     
+    // forenvironment
+
+    .forenvironment__title {
+        margin-bottom: 45px; 
+    } 
+     
+    .forenvironment__item-title{ 
+        font-size: 21px;
     }
       
 }
