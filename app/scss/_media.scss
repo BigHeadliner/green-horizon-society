@@ -307,7 +307,41 @@
          
         .awards__items {
             margin: 0 auto 71px;
+        }  
+         
+        // footer
+         
+        .footer__inner{  
+            display: flex; 
+            flex-direction: column; 
+            align-items:center;
+        }  
+          
+        .footer__logo{ 
+            margin-bottom: 34px;
+        } 
+         
+        .footer__nav{ 
+           margin-bottom: 34px;
+        } 
+         
+        .footer__subscribe{ 
+            text-align: center;
+        } 
+         
+        .footer__subscribe-btn {
+            top: -3px;
+            right: 40px;
+        } 
+         
+        .footer {
+            background-color: #0B0706;
+            padding: 83px 0 97px;
         }
+         
+       
+         
+       
 
        } 
         
@@ -433,6 +467,11 @@
          
         .contact__content{ 
             margin-bottom: 50px;
+        } 
+         
+        .footer {
+            
+            padding: 79px 0 79px;
         }
 
        }   
@@ -695,6 +734,12 @@
          
         .contribute__buttons {
             margin: 0 auto 65px; 
+        } 
+          
+        // footer 
+
+        .footer {
+            padding: 50px 0 50px;
         }
 
        } 
@@ -774,6 +819,17 @@
         .news__item{ 
          margin: 0; 
          margin-bottom: 34px;
+        }  
+         
+        // footer
+         
+        .footer__subscribe-input {
+            max-width: 357px; 
+        } 
+         
+        .footer__subscribe-btn {
+            top: -3px;
+            right: 45px;
         }
 
       }  
@@ -829,6 +885,10 @@
          
         .donation__tabs-item{ 
             font-size: 15px;
+        } 
+         
+        .footer__subscribe-input { 
+            padding: 23px 125px 23px 25px;
         }
 
       }
@@ -924,6 +984,13 @@
      
     .donation__tabs-item{ 
         margin-right: 0;
+    } 
+      
+    // footer 
+
+    .footer__subscribe-btn {
+        top: -3px;
+        right: 7px;
     }
 
     }
@@ -1069,9 +1136,34 @@
          
         .donation__content {
             flex-basis: 309px;
+        }  
+         
+        // footer
+         
+        .footer__subscribe-input {
+            max-width: 395px;
+        } 
+         
+        .footer__subscribe-input {
+            padding: 23px 180px 23px 25px;
+        }
+ 
+    } 
+     
+    @media(max-width:447px) {     
+          
+        // footer 
+
+        .footer__subscribe-btn {
+            top: -3px;
+            right: -4px;
+        }   
+         
+        .footer__subscribe-input {
+            padding: 23px 157px 23px 25px;
         }
 
-    }
+    } 
      
     @media(max-width:438px) {     
          
@@ -1238,8 +1330,40 @@
          
         .donation__yourdonationuse-text {
             margin-bottom: 19px; 
-        }
+        }  
+         
+        // footer
+         
+        .footer__nav{  
+            display: flex;
+            flex-wrap: wrap;  
+            justify-content: center;
+        } 
 
+        .footer__nav-item{ 
+            margin: 25px;
+        }
+ 
+        .footer__nav-item-connect{ 
+            margin-top: 5px;
+        } 
+         
+        .footer__nav { 
+            margin-bottom: 0;
+        } 
+         
+        .footer__title {
+            font-size: 28px;
+            line-height: 45px;
+        } 
+         
+        .footer__subscribe-btn {
+            padding: 25px 19px; 
+        } 
+         
+        .footer__subscribe-input {
+            padding: 23px 123px 23px 25px;
+        }
     }    
      
     @media(max-width:378px) {   
@@ -1340,7 +1464,7 @@
         }
 
     }
-     
+      
  
      
     @media(max-width:350px) {    
@@ -1473,6 +1597,21 @@
 
     .contact-map{ 
       height: 250px;
+    } 
+      
+    // footer 
+
+    .footer__title {
+        font-size: 23px;
+        line-height: 39px;
+    } 
+     
+    .footer__nav-item-connect { 
+        margin: 0 25px;
+    } 
+     
+    .footer__logo {
+        margin-bottom: 15px; 
     }
       
 }
@@ -1524,7 +1663,17 @@
          
       .contribute__inner {
           padding: 27px 15px 0 15px;
-      }  
+      }    
+       
+    //   footer
+       
+      .footer__subscribe-btn {
+        padding: 25px 9px;
+    } 
+     
+    .footer__subscribe-input {
+        padding: 23px 105px 23px 25px;
+    }
        
 
     }
