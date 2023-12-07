@@ -107,9 +107,17 @@
             margin-bottom: 70px;
         }  
          
-        // forenvironment
+        //  donation
          
-        
+        .donation__earth{ 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center;
+        } 
+         
+        .donation__earth-text{ 
+            margin-bottom: 45px;
+        }
 
        }     
         
@@ -197,10 +205,40 @@
          
         .contact__suptitle{ 
             display: none;
+        } 
+         
+        // donation
+
+        .donation__top{ 
+          display: flex; 
+          flex-direction: column; 
+          padding: 97px 0 97px 0;
+        }  
+         
+        .donation__content {
+            flex-basis: 435px;
+        }     
+         
+        // donation 
+         
+        .donation__yourdonationuse{ 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            text-align: center;
+        } 
+         
+        .donation__yourdonationuse-title{ 
+            margin-bottom: 40px; 
+            max-width: 700px;
+        } 
+         
+        .donation__yourdonationuse-text {
+            max-width: 1197px;  
+            margin-bottom: 35px;
         }
 
-
-       }    
+     }
         
        @media(max-width:1175px) {     
 
@@ -339,6 +377,14 @@
          
         .help-nature__supporter{ 
             margin: 25px;
+        }  
+          
+        // donation 
+
+        .donation__top {
+            display: flex;
+            flex-direction: column;
+            padding: 97px 0 54px 0;
         }
 
        }
@@ -595,6 +641,12 @@
 
         .about-us__suptitle {
             margin-bottom: 17px;
+        } 
+          
+        // donation 
+
+        .donation__content {
+            flex-basis: 390px;
         }
         
        }  
@@ -679,7 +731,15 @@
           
         .events__item-suptitle::after{ 
             display: none;
-        }
+        } 
+           
+         
+        // donation
+         
+        .donation__yourdonationuse-title {
+            margin-bottom: 17px; 
+        } 
+
 
        }
  
@@ -748,6 +808,27 @@
         .about-us__link-img {
             width: 19px;
             height: 19px; 
+        }  
+         
+        // contact-map
+         
+        .contact-map__iframe{ 
+           height: 350px;
+        }
+
+      } 
+       
+      @media(max-width:548px) {    
+         
+        // donation
+          
+        .donation__content {
+            flex-basis: 357px; 
+            margin-bottom: 40px;
+        }  
+         
+        .donation__tabs-item{ 
+            font-size: 15px;
         }
 
       }
@@ -826,7 +907,25 @@
        
       .media__article-content {
         padding: 17px 0 0 0;
-     }
+     }   
+      
+    //  donation
+       
+    .donation__tabs-items{ 
+        display: flex;   
+        justify-content: space-between;
+        text-align: center; 
+    }
+
+      
+    .donation__earth-text {
+       margin-bottom: 40px;
+    } 
+     
+    .donation__tabs-item{ 
+        margin-right: 0;
+    }
+
     }
 
 
@@ -841,7 +940,6 @@
             padding: 10px;
         }  
          
-    
     } 
      
     @media(max-width:500px) { 
@@ -965,6 +1063,12 @@
          
         .events__item-title--long{ 
             max-width: 173px;
+        }  
+         
+        // donation
+         
+        .donation__content {
+            flex-basis: 309px;
         }
 
     }
@@ -1004,7 +1108,19 @@
         .society__item-text {
             color: #FFF;
             margin-bottom: 35px;
-        }  
+        }    
+         
+        // contact-map
+         
+        .contact-map__iframe{ 
+            height: 300px;
+         }  
+          
+    //   donation
+          
+     .donation__tabs-items {
+        margin-bottom: 27px; 
+    }
          
 
     } 
@@ -1112,6 +1228,16 @@
          
         .journey__inner {
             padding: 40px 25px 40px 25px; 
+        } 
+          
+        // donation 
+
+        .donation__yourdonationuse-title{ 
+            line-height: 43px;
+        } 
+         
+        .donation__yourdonationuse-text {
+            margin-bottom: 19px; 
         }
 
     }    
@@ -1201,6 +1327,16 @@
         .forenvironment__title{ 
             font-size: 29px;
             line-height: 35px;
+        } 
+          
+        // donation 
+
+        .donation__suptitle {
+            margin-bottom: 10px;
+        } 
+         
+        .donation__tabs-item {
+            padding: 10px 5px;
         }
 
     }
@@ -1331,6 +1467,12 @@
      
     .forenvironment__item-title{ 
         font-size: 21px;
+    } 
+      
+    // contact-map 
+
+    .contact-map{ 
+      height: 250px;
     }
       
 }

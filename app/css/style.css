@@ -4468,6 +4468,21 @@ h5 {
   .society__items {
     margin-bottom: 70px;
   }
+  .donation__earth {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .donation__earth-text {
+    margin-bottom: 45px;
+  }
 }
 @media (max-width: 1245px) {
   .help-nature__main {
@@ -4565,6 +4580,41 @@ h5 {
   }
   .contact__suptitle {
     display: none;
+  }
+  .donation__top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 97px 0 97px 0;
+  }
+  .donation__content {
+    -ms-flex-preferred-size: 435px;
+        flex-basis: 435px;
+  }
+  .donation__yourdonationuse {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .donation__yourdonationuse-title {
+    margin-bottom: 40px;
+    max-width: 700px;
+  }
+  .donation__yourdonationuse-text {
+    max-width: 1197px;
+    margin-bottom: 35px;
   }
 }
 @media (max-width: 1175px) {
@@ -4674,6 +4724,16 @@ h5 {
   }
   .help-nature__supporter {
     margin: 25px;
+  }
+  .donation__top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 97px 0 54px 0;
   }
 }
 @media (max-width: 930px) {
@@ -4871,6 +4931,10 @@ h5 {
   .about-us__suptitle {
     margin-bottom: 17px;
   }
+  .donation__content {
+    -ms-flex-preferred-size: 390px;
+        flex-basis: 390px;
+  }
 }
 @media (max-width: 650px) {
   .team__members {
@@ -4920,6 +4984,9 @@ h5 {
   .events__item-suptitle::after {
     display: none;
   }
+  .donation__yourdonationuse-title {
+    margin-bottom: 17px;
+  }
 }
 @media (max-width: 585px) {
   .main__buttons {
@@ -4960,6 +5027,19 @@ h5 {
   .about-us__link-img {
     width: 19px;
     height: 19px;
+  }
+  .contact-map__iframe {
+    height: 350px;
+  }
+}
+@media (max-width: 548px) {
+  .donation__content {
+    -ms-flex-preferred-size: 357px;
+        flex-basis: 357px;
+    margin-bottom: 40px;
+  }
+  .donation__tabs-item {
+    font-size: 15px;
   }
 }
 @media (max-width: 530px) {
@@ -5013,6 +5093,21 @@ h5 {
   }
   .media__article-content {
     padding: 17px 0 0 0;
+  }
+  .donation__tabs-items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-align: center;
+  }
+  .donation__earth-text {
+    margin-bottom: 40px;
+  }
+  .donation__tabs-item {
+    margin-right: 0;
   }
 }
 @media (max-width: 525px) {
@@ -5105,6 +5200,10 @@ h5 {
   .events__item-title--long {
     max-width: 173px;
   }
+  .donation__content {
+    -ms-flex-preferred-size: 309px;
+        flex-basis: 309px;
+  }
 }
 @media (max-width: 438px) {
   .help-nature__video {
@@ -5129,6 +5228,12 @@ h5 {
   .society__item-text {
     color: #FFF;
     margin-bottom: 35px;
+  }
+  .contact-map__iframe {
+    height: 300px;
+  }
+  .donation__tabs-items {
+    margin-bottom: 27px;
   }
 }
 @media (max-width: 425px) {
@@ -5194,6 +5299,12 @@ h5 {
   .journey__inner {
     padding: 40px 25px 40px 25px;
   }
+  .donation__yourdonationuse-title {
+    line-height: 43px;
+  }
+  .donation__yourdonationuse-text {
+    margin-bottom: 19px;
+  }
 }
 @media (max-width: 378px) {
   .mp-form-wrapper {
@@ -5250,6 +5361,12 @@ h5 {
   .forenvironment__title {
     font-size: 29px;
     line-height: 35px;
+  }
+  .donation__suptitle {
+    margin-bottom: 10px;
+  }
+  .donation__tabs-item {
+    padding: 10px 5px;
   }
 }
 @media (max-width: 350px) {
@@ -5337,6 +5454,9 @@ h5 {
   }
   .forenvironment__item-title {
     font-size: 21px;
+  }
+  .contact-map {
+    height: 250px;
   }
 }
 @media (max-width: 338px) {
