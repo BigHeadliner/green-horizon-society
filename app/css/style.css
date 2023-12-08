@@ -4485,6 +4485,9 @@ h5 {
   }
 }
 @media (max-width: 1245px) {
+  .main {
+    margin-bottom: 48px;
+  }
   .help-nature__main {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4616,6 +4619,70 @@ h5 {
     max-width: 1197px;
     margin-bottom: 35px;
   }
+  .society__content {
+    padding: 75px 0 0 137px;
+  }
+  .news__items {
+    margin-bottom: 50px;
+  }
+  .events__items {
+    margin-bottom: 19px;
+  }
+  .about-us__inner {
+    border: 1px solid transparent;
+    padding-top: 97px;
+    padding: 70px 0 0 0;
+  }
+  .about-us__title {
+    color: #1D2130;
+    max-width: 650px;
+    margin-bottom: 55px;
+  }
+  .about-us__img-wrapper {
+    margin-bottom: 71px;
+  }
+  .about-us__content {
+    margin: 0 auto 70px;
+  }
+  .about-us__supporters {
+    margin-bottom: 55px;
+  }
+  .awards__inner {
+    padding-top: 59px;
+  }
+  .awards__title {
+    margin-bottom: 65px;
+  }
+  .awards__items {
+    margin: 0 auto 58px;
+  }
+  .team {
+    padding-top: 71px;
+  }
+  .team__members {
+    margin: 0 auto 71px;
+  }
+  .forenvironment__items {
+    margin: 0 auto 75px;
+  }
+  .contribute {
+    padding: 90px 0 97px;
+  }
+  .contact-middle {
+    padding-top: 71px;
+  }
+  .contact-middle__form {
+    margin: 0 auto 73px;
+  }
+  .donation__yourdonationuse {
+    margin-bottom: 0px;
+  }
+  .donation__tabs-contentbox {
+    margin-bottom: 50px;
+  }
+  .donation__yourdonationuse {
+    padding-top: 55px;
+  }
 }
 @media (max-width: 1175px) {
   .awards__items {
@@ -4724,6 +4791,26 @@ h5 {
     padding: 83px 25px 64px 25px;
   }
 }
+@media (max-width: 1018px) {
+  .main {
+    margin-bottom: 0px;
+  }
+  .main__buttons {
+    margin-bottom: 99px;
+  }
+  .wecare__content {
+    padding: 74px 0 85px 0;
+  }
+  .wecare__content {
+    padding: 74px 0 71px 0;
+  }
+  .society__title {
+    margin-bottom: 35px;
+  }
+  .team__members {
+    margin: 0 auto 15px;
+  }
+}
 @media (max-width: 985px) {
   .team__subtitle {
     margin-bottom: 35px;
@@ -4826,6 +4913,111 @@ h5 {
   .about-us__title {
     margin-bottom: 37px;
   }
+  .main__buttons {
+    margin-bottom: 119px;
+  }
+  .help-nature__supporters {
+    padding: 41px 0 41px 0;
+  }
+  .help-nature__supporters {
+    padding: 41px 0 0px 0;
+  }
+  .wecare__content {
+    padding: 70px 0 75px 0;
+  }
+  .society__content {
+    padding: 59px 0 0 137px;
+  }
+  .society__items {
+    margin-bottom: 50px;
+  }
+  .contribute {
+    padding: 77px 0 77px;
+  }
+  .news__inner {
+    padding-top: 55px;
+  }
+  .about-us__inner {
+    border: 1px solid transparent;
+    padding-top: 97px;
+    padding: 55px 0 0 0;
+  }
+  .about-us__img-wrapper {
+    margin-bottom: 25px;
+  }
+  .about-us__content {
+    margin: 0 auto 35px;
+  }
+  .about-us__supporters {
+    margin-bottom: 27px;
+  }
+  .awards__inner {
+    padding-top: 37px;
+  }
+  .awards__title {
+    margin-bottom: 27px;
+  }
+  .team {
+    padding-top: 53px;
+  }
+  .contribute {
+    padding: 55px 0 55px;
+  }
+  .whatwedo__inner {
+    padding: 77px 0 77px 0;
+  }
+  .forenvironment__inner {
+    padding-top: 70px;
+  }
+  .forenvironment__inner {
+    padding-top: 55px;
+  }
+  .forenvironment__title {
+    margin-bottom: 48px;
+  }
+  .forenvironment__title {
+    margin-bottom: 40px;
+  }
+  .forenvironment__items {
+    margin: 0 auto 55px;
+  }
+  .society__items {
+    margin-bottom: 37px;
+  }
+  .events__inner {
+    padding-top: 70px;
+  }
+  .media__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 70px 0 0 0;
+  }
+  .contact__top {
+    padding: 74px 0 74px 0;
+  }
+  .contact-middle {
+    padding-top: 45px;
+  }
+  .contact-middle__form {
+    margin: 0 auto 50px;
+  }
+  .donation__top {
+    padding: 54px 0 54px 0;
+  }
+  .donation__yourdonationuse {
+    padding-top: 29px;
+  }
+  .donation__yourdonationuse-title {
+    margin-bottom: 30px;
+  }
+  .donation__yourdonationuse-text {
+    margin-bottom: 25px;
+  }
+  .footer {
+    padding: 59px 0 59px;
+  }
 }
 @media (max-width: 855px) {
   .forenvironment__items {
@@ -4849,6 +5041,49 @@ h5 {
 @media (max-width: 815px) {
   .wecare__content {
     padding: 57px 0 75px 0;
+  }
+}
+@media (max-width: 805px) {
+  .main__buttons {
+    margin-bottom: 93px;
+  }
+  .society__content {
+    padding: 45px 0 0 137px;
+  }
+  .society__suptitle {
+    margin-bottom: 23px;
+  }
+  .society__title {
+    margin-bottom: 27px;
+  }
+  .about-us__inner {
+    padding: 45px 0 0 0;
+  }
+  .about-us__suptitle {
+    margin-bottom: 23px;
+  }
+  .about-us__title {
+    margin-bottom: 27px;
+  }
+  .whatwedo__inner {
+    padding: 57px 0 57px 0;
+  }
+  .whatwedo__title {
+    margin-bottom: 32px;
+    line-height: 39px;
+  }
+  .whatwedo__title {
+    margin-bottom: 32px;
+    line-height: 60px;
+  }
+  .forenvironment__items {
+    margin: 0 auto 70px;
+  }
+  .contact__top {
+    padding: 54px 0 54px 0;
+  }
+  .donation__top {
+    padding: 45px 0 45px 0;
   }
 }
 @media (max-width: 775px) {
@@ -5021,6 +5256,38 @@ h5 {
   }
   .donation__yourdonationuse-title {
     margin-bottom: 17px;
+  }
+}
+@media (max-width: 590px) {
+  .main__inner {
+    padding-top: 155px;
+  }
+  .main__buttons {
+    margin-bottom: 90px;
+  }
+  .main__bottom {
+    margin-bottom: 47px;
+  }
+  .help-nature__content {
+    padding-top: 45px;
+  }
+  .wecare__content {
+    padding: 47px 0 47px 0;
+  }
+  .society__content {
+    padding: 55px 0 0 0;
+  }
+  .society__suptitle {
+    margin-bottom: 30px;
+  }
+  .donations {
+    padding: 50px 0;
+  }
+  .media__suptitle {
+    margin-bottom: 15px;
+  }
+  .media__inner {
+    padding: 50px 0 0 0;
   }
 }
 @media (max-width: 585px) {
@@ -5199,6 +5466,36 @@ h5 {
     margin: 15px;
   }
 }
+@media (max-width: 480px) {
+  .wecare__point {
+    margin-bottom: 35px;
+  }
+  .wecare__content {
+    padding: 47px 0 35px 0;
+  }
+  .society__content {
+    padding: 45px 0 0 0;
+  }
+  .society__suptitle {
+    margin-bottom: 23px;
+  }
+  .news__items {
+    margin-bottom: 40px;
+  }
+  .awards__title {
+    margin-bottom: 19px;
+  }
+  .journey__inner {
+    padding: 60px 25px 27px 25px;
+  }
+  .team__members {
+    margin: 0 auto;
+  }
+  .footer__title {
+    font-size: 34px;
+    line-height: 50px;
+  }
+}
 @media (max-width: 478px) {
   .help-nature__suptitle {
     margin-bottom: 19px;
@@ -5314,6 +5611,27 @@ h5 {
   }
   .contact__title {
     line-height: 35px;
+  }
+}
+@media (max-width: 399px) {
+  .wecare__suptitle {
+    margin-bottom: 15px;
+  }
+  .wecare__content {
+    padding: 37px 0 37px 0;
+  }
+  .wecare__subtitle {
+    margin-bottom: 37px;
+  }
+  .contribute {
+    padding: 54px 0 54px;
+  }
+  .news__inner {
+    padding-top: 55px;
+  }
+  .footer__title {
+    font-size: 27px;
+    line-height: 45px;
   }
 }
 @media (max-width: 395px) {
@@ -5560,6 +5878,41 @@ h5 {
   }
   .footer__logo {
     margin-bottom: 15px;
+  }
+  .donation__content {
+    padding-top: 19px;
+  }
+}
+@media (max-width: 339px) {
+  .main__buttons {
+    margin-bottom: 55px;
+  }
+  .news__items {
+    margin-bottom: 15px;
+  }
+  .whatwedo__inner {
+    padding: 47px 0 47px 0;
+  }
+  .forenvironment__items {
+    row-gap: 38px;
+  }
+  .forenvironment__items {
+    margin: 0 auto 50px;
+  }
+  .contact__content {
+    margin-bottom: 40px;
+  }
+  .donation__earth-text {
+    margin-bottom: 30px;
+  }
+  .donation__tabs-contentbox {
+    margin-bottom: 35px;
+  }
+  .contribute {
+    padding: 45px 0 45px;
+  }
+  .footer {
+    padding: 40px 0 40px;
   }
 }
 @media (max-width: 338px) {
