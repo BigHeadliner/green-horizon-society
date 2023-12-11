@@ -28,6 +28,8 @@
   },
   "dependencies": {
     "@fancyapps/fancybox": "^3.5.7",
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
     "counterup2": "^2.0.2",
     "magnific-popup": "^1.1.0",
     "save-dev": "^0.0.1-security"

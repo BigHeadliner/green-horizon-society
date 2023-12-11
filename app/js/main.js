@@ -101,10 +101,27 @@ $(function () {
         $('.donation__tabs-content').removeClass('donation__tabs-content--active');
         $($(this).attr('href')).addClass('donation__tabs-content--active');
 
-    });
-    
+    });  
+     
+   
+    let animationExecuted = false;
 
-    
+    AOS.init({
+      duration: 1700,
+    });
+  
+    document.addEventListener('scroll', function () {
+      const yourElement = document.querySelector('.your-element');
+  
+      // Виконайте анімацію тільки при прокрутці вниз та якщо вона ще не відбулася
+      if (window.scrollY > yourElement.offsetTop && !animationExecuted) {
+        AOS.refreshHard(); // Поновіть AOS, оскільки контент може бути доданий динамічно
+        AOS.init(); // Переініціалізуйте AOS для застосування анімацій
+        animationExecuted = true; // Позначте, що анімація вже відбулася
+      }
+    });
+
+
 });
       
 
