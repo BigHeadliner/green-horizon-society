@@ -1524,11 +1524,20 @@
         .society__suptitle {
             margin-bottom: 23px;
         }  
+         
+         
+         .society__items {
+            margin-bottom: 0px; 
+        } 
+         
+        .society__items--abovethegraph{ 
+            margin-bottom: 34px;
+        }
 
         // news  
 
         .news__items {
-            margin-bottom: 40px;
+            margin-bottom: 9px;
         }  
          
         // awards
@@ -1549,6 +1558,23 @@
           
             margin: 0 auto;
         }  
+         
+        // about-us
+         
+        .about-us__inner {
+            padding: 15px 0 0 0; 
+        }  
+
+        // whatwedo 
+         
+        .whatwedo__inner {
+            padding: 17px 0 17px 0;
+        }   
+         
+        .whatwedo__content {
+            margin-bottom: 35px;
+        }
+         
          
         // footer
          
@@ -2006,14 +2032,54 @@
       
  
      
-    @media(max-width:350px) {    
+    @media(max-width:350px) {     
+          
+        // header 
+
+        .header__inner {
+            padding: 10px 0;  
+        }
 
           // main   
            
        .main__bottom{ 
          display: none;
-       }      
-         
+       }  
+       
+       .news__title {
+        font-size: 38px;
+        color: #1D2130;
+        border: 1px solid transparent;
+        padding: 9px 25px 0 10px;
+        background-color: #FFF;
+        max-width: 325px;
+        position: absolute;
+        top: -5px;
+        left: 0;
+     } 
+      
+     .main__whatwedo, 
+     .main__video{ 
+        font-size: 15px; 
+        padding: 17px 19px; 
+        width: 119px;
+     }  
+      
+     .main__video{  
+        border: 1px solid #FFF; 
+          border-radius: 4px; 
+          text-align: center; 
+          display: flex; 
+          justify-content: center; 
+          align-items: center; 
+          font-size: 14px;
+     }
+      
+      .main__video-img{ 
+         display: none;
+      }
+    
+  
     //    help-nature 
 
      .help-nature__text--biggermargin {
@@ -2136,7 +2202,32 @@
 
     .contact-map{ 
       height: 250px;
+    }  
+     
+    // contribute
+
+    .contribute__btn-green, 
+    .contribute__btn-grey {
+        padding: 17px 14px;
+        font-size: 13px;
+    }   
+     
+    .contribute {
+        padding: 45px 0 35px;
+    }
+     
+    // whatwedo
+     
+    .whatwedo__title {
+        margin-bottom: 32px;
+        line-height: 35px;
     } 
+      
+    // about-us 
+
+    .about-us__inner {
+        padding: 35px 0 0 0;
+    }
       
     // footer 
 
@@ -2157,7 +2248,7 @@
         padding-top: 19px;
     }
       
-}
+ }
       
  
   @media(max-width:339px) {   
@@ -2171,13 +2262,13 @@
     // news
      
     .news__items {
-        margin-bottom: 15px;
+        margin-bottom: 0px;
     }  
      
     // whatwedo
 
     .whatwedo__inner {
-        padding: 47px 0 47px 0;
+        padding: 37px 0 47px 0;
     }  
      
     // forenvironment
@@ -2255,7 +2346,41 @@
             height: 405px;
         }
 
-    }   
+    }    
+     
+    @media(max-width:345px) {    
+         
+        //  popup
+          
+        .mp-form-wrapper {  
+            padding: 27px 9px 0; 
+            height: 525px;
+        } 
+         
+        .mp-title {
+            margin-bottom: 10px;
+        } 
+          
+        .textarea-label {
+            margin-bottom: -31px 
+        } 
+         
+        label { 
+            margin-bottom: 0;
+        } 
+         
+        .mp-form-btn {
+            padding: 15px 17px;
+        } 
+         
+        .close-popup-btn {
+            position: absolute;
+            top: 5px;
+            right: 5px; 
+        }
+        
+
+    }
      
      
     @media(max-width:321px) {    

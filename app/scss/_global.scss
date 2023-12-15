@@ -16,7 +16,8 @@ body {
     margin: 0 auto;
     padding: 0 15px; 
     border: 1px solid green;  
-    border: 1px solid transparent; 
+    border: 1px solid transparent;  
+    overflow: hidden;
 }      
  
 .container-map {
@@ -24,7 +25,8 @@ body {
     margin: 0 auto;
     border: 1px solid green;   
     overflow: hidden;
-    border: 1px solid transparent; 
+    border: 1px solid transparent;  
+    overflow: hidden;
 }   
  
  
@@ -38,8 +40,8 @@ body {
    cursor: pointer;
    border: 1px solid transparent; 
    display: block;
-} 
- 
+}  
+
 .second-btn{  
   @extend %roboto-500; 
   font-size: 17px;  
@@ -363,7 +365,14 @@ h5{
       h3 {
         font-size: 23px;
         line-height: 35px;
-     }
+     } 
+      
+     .main-btn, 
+     .second-btn{
+        font-size: 15px;
+     } 
+      
+    
       
        
   }    

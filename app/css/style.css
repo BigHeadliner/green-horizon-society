@@ -7708,6 +7708,7 @@ body {
   padding: 0 15px;
   border: 1px solid green;
   border: 1px solid transparent;
+  overflow: hidden;
 }
 
 .container-map {
@@ -7716,6 +7717,7 @@ body {
   border: 1px solid green;
   overflow: hidden;
   border: 1px solid transparent;
+  overflow: hidden;
 }
 
 .main-btn {
@@ -8002,6 +8004,10 @@ h5 {
   h3 {
     font-size: 23px;
     line-height: 35px;
+  }
+  .main-btn,
+.second-btn {
+    font-size: 15px;
   }
 }
 @media (max-width: 325px) {
@@ -8588,7 +8594,7 @@ h5 {
 
 .news__inner {
   padding-top: 87px;
-  border-top: 1px solid #E5E5E5;
+  border-top: 1px solid transparent;
   position: relative;
 }
 .news__title {
@@ -8599,7 +8605,7 @@ h5 {
   background-color: #FFF;
   max-width: 325px;
   position: absolute;
-  top: -25px;
+  top: 5px;
   left: 0;
 }
 .news__items {
@@ -8612,7 +8618,7 @@ h5 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 97px;
+  margin-bottom: 87px;
 }
 .news__item-link {
   display: block;
@@ -8668,7 +8674,7 @@ h5 {
 
 .events__inner {
   padding-top: 76px;
-  border-top: 1px solid #E5E5E5;
+  border-top: 1px solid transparent;
   position: relative;
 }
 .events__title {
@@ -8679,7 +8685,7 @@ h5 {
   background-color: #FFF;
   max-width: 325px;
   position: absolute;
-  top: -15px;
+  top: 3px;
   left: -15px;
 }
 .events__items {
@@ -8693,7 +8699,7 @@ h5 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 97px;
+  margin-bottom: 87px;
 }
 .events__item {
   max-width: 628px;
@@ -8777,8 +8783,7 @@ h5 {
 }
 .about-us__inner {
   border: 1px solid transparent;
-  padding-top: 97px;
-  padding: 97px 0 0 0;
+  padding: 87px 0 0 0;
 }
 .about-us__title-wrapper {
   padding-left: 97px;
@@ -10608,8 +10613,14 @@ h5 {
   .society__suptitle {
     margin-bottom: 23px;
   }
+  .society__items {
+    margin-bottom: 0px;
+  }
+  .society__items--abovethegraph {
+    margin-bottom: 34px;
+  }
   .news__items {
-    margin-bottom: 40px;
+    margin-bottom: 9px;
   }
   .awards__title {
     margin-bottom: 19px;
@@ -10619,6 +10630,15 @@ h5 {
   }
   .team__members {
     margin: 0 auto;
+  }
+  .about-us__inner {
+    padding: 15px 0 0 0;
+  }
+  .whatwedo__inner {
+    padding: 17px 0 17px 0;
+  }
+  .whatwedo__content {
+    margin-bottom: 35px;
   }
   .footer__title {
     font-size: 34px;
@@ -10910,7 +10930,45 @@ h5 {
   }
 }
 @media (max-width: 350px) {
+  .header__inner {
+    padding: 10px 0;
+  }
   .main__bottom {
+    display: none;
+  }
+  .news__title {
+    font-size: 38px;
+    color: #1D2130;
+    border: 1px solid transparent;
+    padding: 9px 25px 0 10px;
+    background-color: #FFF;
+    max-width: 325px;
+    position: absolute;
+    top: -5px;
+    left: 0;
+  }
+  .main__whatwedo,
+.main__video {
+    font-size: 15px;
+    padding: 17px 19px;
+    width: 119px;
+  }
+  .main__video {
+    border: 1px solid #FFF;
+    border-radius: 4px;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 14px;
+  }
+  .main__video-img {
     display: none;
   }
   .help-nature__text--biggermargin {
@@ -10998,6 +11056,21 @@ h5 {
   .contact-map {
     height: 250px;
   }
+  .contribute__btn-green,
+.contribute__btn-grey {
+    padding: 17px 14px;
+    font-size: 13px;
+  }
+  .contribute {
+    padding: 45px 0 35px;
+  }
+  .whatwedo__title {
+    margin-bottom: 32px;
+    line-height: 35px;
+  }
+  .about-us__inner {
+    padding: 35px 0 0 0;
+  }
   .footer__title {
     font-size: 23px;
     line-height: 39px;
@@ -11017,10 +11090,10 @@ h5 {
     margin-bottom: 55px;
   }
   .news__items {
-    margin-bottom: 15px;
+    margin-bottom: 0px;
   }
   .whatwedo__inner {
-    padding: 47px 0 47px 0;
+    padding: 37px 0 47px 0;
   }
   .forenvironment__items {
     row-gap: 38px;
@@ -11068,6 +11141,29 @@ h5 {
   .wecare__img {
     max-width: 300px;
     height: 405px;
+  }
+}
+@media (max-width: 345px) {
+  .mp-form-wrapper {
+    padding: 27px 9px 0;
+    height: 525px;
+  }
+  .mp-title {
+    margin-bottom: 10px;
+  }
+  .textarea-label {
+    margin-bottom: -31px;
+  }
+  label {
+    margin-bottom: 0;
+  }
+  .mp-form-btn {
+    padding: 15px 17px;
+  }
+  .close-popup-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
   }
 }
 @media (max-width: 321px) {
